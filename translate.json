@@ -2,113 +2,192 @@
     "dash":{
         "readonly": {
             "SE":"<b>Read-only</b><br><i>NibePi kör med ett läsbart filsystem</i>",
-            "EN":"<b>Read-only</b><br><i>NibePi runs on a read-only filesystem</i>"
+            "EN":"<b>Read-only</b><br><i>NibePi runs on a read-only filesystem</i>",
+            "DE":"<b>Schreibschutz</b><br><i>NibePi läuft auf einem schreibgeschützen Dateisystem</i>"
         },"language": {
             "SE":"<b>Språk</b>",
-            "EN":"<b>Language</b>"
+            "EN":"<b>Language</b>",
+            "DE":"<b>Sprache</b>"
         },"auto_update": {
             "SE":"<b>Uppdatera grafer</b><br><i>Aktiverar att hämta registerdata och uppdatera NibePis interna grafer.</i>",
-            "EN":"<b>Update graphs</b><br><i>If activated, this function keeps the common graphs in NibePi updated.</i>"
+            "EN":"<b>Update graphs</b><br><i>If activated, this updates NibePi's internal diagrams based on register data.</i>",
+            "DE":"<b>Diagramme aktualisieren</b><br><i>Aktivieren um NibePi's Diagramme auf Basis der Registerdaten zu aktualisieren.</i>"
         },"save_graph": {
             "SE":"<b>Spara grafer</b><br><i>Sparar ner grafer till SD-kortet varje timma och vid omstart/uppdatering</i>",
-            "EN":"<b>Save graphs</b><br><i>Saves graphs to the SD-card every hour and when restarting/updating</i>"
+            "EN":"<b>Save graphs</b><br><i>Saves graphs to the SD-card every hour and when restarting/updating</i>",
+            "DE":"<b>Diagramme speichern</b><br><i>Speichert die Diagramme stündlich und bei Neustart und Update auf die SD-Karte.</i>"
         },"heatcurve_info": {
             "SE":"<p><b>Ställ in värmepumpens värmekurva och kurvjustering</b><br><i>OBS. Ställer man in kurvjustering manuellt i värmepumpen kommer den att skrivas över av NibePi, ställ den därför här</i><br></p>",
-            "EN":"<p><b>Set the heatcurve and the curve adjustment here</b><br><i>If you set it directly in the heatpump, NibePi will overwrite it</i><br></p>"
+            "EN":"<p><b>Set the heatcurve and the curve adjustment here</b><br><i>If you set it directly in the heatpump, NibePi will overwrite it</i><br></p>",
+            "DE":"<p><b>Stelle die Heizkurve und Parrallelverschiebung hier ein</b><br><i>Direkt in der Wärmepumpe eingestellte Werte werden überschrieben.</i><br></p>"
         },"heatcurve_s1": {
             "SE":"<p><b>Värmekurva S1</b><br></p>",
-            "EN":"<p><b>Heatcurve S1</b><br></p>"
+            "EN":"<p><b>Heatcurve S1</b><br></p>",
+            "DE":"<p><b>Heizkurve S1</b><br></p>"
         },"heatcurve_s2": {
             "SE":"<p><b>Värmekurva S2</b><br></p>",
-            "EN":"<p><b>Heatcurve S2</b><br></p>"
+            "EN":"<p><b>Heatcurve S2</b><br></p>",
+            "DE":"<p><b>Heizkurve S2</b><br></p>"
         },"adjust_s1": {
             "SE":"<p><b>Kurvjustering S1</b><br></p>",
-            "EN":"<p><b>Curve adjustment S1</b><br></p>"
+            "EN":"<p><b>Curve adjustment S1</b><br></p>",
+            "DE":"<p><b>Parrallelverschiebung S1</b><br></p>"
         },"adjust_s2": {
             "SE":"<p><b>Kurvjustering S2</b><br></p>",
-            "EN":"<p><b>Curve adjustment S2</b><br></p>"
+            "EN":"<p><b>Curve adjustment S2</b><br></p>",
+            "DE":"<p><b>Parrallelverschiebung S2</b><br></p>"
         },"intro": {
-            "SE":"<h2>NibePi</h2><p>NibePi är IoT produkten som både gör värmepumpen smartare och effektivare. Med hjälp av MQTT så kan värmepumpen övervakas och styras direkt från det smarta hemmet.<br>Det finns flera inbyggda funktioner som kan förbättra komforten och ekonomin. Mer information finns under varje funktion.<br><p>NibePi stödjer alla värmepumpar i Nibes F serie, samt elpannor med tillhörande utedel i VVM serien.<br>Nibe F370,F470,F730,F750,F1145,F1155,F1245,F1255,F1345,F1355<br>VVM 225,310,320,325,500</p>"
+            "SE":"<h2>NibePi</h2><p>NibePi är IoT produkten som både gör värmepumpen smartare och effektivare. Med hjälp av MQTT så kan värmepumpen övervakas och styras direkt från det smarta hemmet.<br>Det finns flera inbyggda funktioner som kan förbättra komforten och ekonomin. Mer information finns under varje funktion.<br><p>NibePi stödjer alla värmepumpar i Nibes F serie, samt elpannor med tillhörande utedel i VVM serien.<br>Nibe F370,F470,F730,F750,F1145,F1155,F1245,F1255,F1345,F1355<br>VVM 225,310,320,325,500</p>",
+            "EN":"<h2>NibePi</h2><p>NibePi is an IoT appliance that makes your heatpump smarter and more efficient. Thanks to MQTT you can control your heatpump directly from your smart home system.<br>NibePi's integrated features can increase comfort and efficiency. You can find additional information directly in the menus for the invidivual features.<br><p>NibePi works with all F series heatpumps, as well as the outdoor units of the VVM series.<br>Nibe F370,F470,F730,F750,F1145,F1155,F1245,F1255,F1345,F1355<br>VVM 225,310,320,325,500</p>",
+            "DE":"<h2>NibePi</h2><p>NibePi ist ein IoT Gerät, dass deine Wärmepumpe intelligenter und effizenter macht. Dank MQTT kannst du deine Wärmepumpe direkt aus deinem SmartHome System steuern.<br>NibePi's integrierte Funktionen können den Komfort und die Effizienz der Wärmepumpe steigern. Du findest weitere Informationen in den Menüs der einzelnen Funktionen.<br><p>NibePi ist kompatibel mit allen Wärmepumpen der F-Serie und den Außengeräten der VVM Serie.<br>Nibe F370,F470,F730,F750,F1145,F1155,F1245,F1255,F1345,F1355<br>VVM 225,310,320,325,500</p>"
         },"information": {
-            "SE":"<p><b>Information</b></p>"
+            "SE":"<p><b>Information</b></p>",
+            "EN":"<p><b>Informations</b></p>",
+            "DE":"<p><b>Informationen</b></p>"
         },"system": {
-            "SE":"<p><b>System</b></p>"
+            "SE":"<p><b>System</b></p>",
+            "EN":"<p><b>System</b></p>",
+            "DE":"<p><b>System</b></p>"
         },"rmu_label": {
             "SE":"<p><b>RMU-40</b></p>",
-            "EN":"<p><b>RMU-40</b></p>"
+            "EN":"<p><b>RMU-40</b></p>",
+            "DE":"<p><b>RMU-40</b></p>"
         },"rmu_info": {
-            "SE":"<p><b>Virtuell RMU-40</b><br><i>Aktivera en virtuell RMU-40 för att kunna simulera en riktig inomhusgivare via MQTT<br>OBS. har du en riktig RMU-40 går det inte att simulera</i><br></p>"
+            "SE":"<p><b>Virtuell RMU-40</b><br><i>Aktivera en virtuell RMU-40 för att kunna simulera en riktig inomhusgivare via MQTT<br>OBS. har du en riktig RMU-40 går det inte att simulera</i><br></p>",
+            "EN":"<p><b>Virtual RMU-40</b><br><i>Activate a virtual RMU-40 to integrate any room temperature sensor via MQTT<br>Attention: Does not work if a physical RMU-40 is connected!</i><br></p>",
+            "DE":"<p><b>Virtuelle RMU-40</b><br><i>Aktiviere eine virtuelle RMU-40 um einen beliebigen Raumtemperatursensor per MQTT einzubinden.<br>Hinweis: Funktioniert nicht, wenn eine RMU-40 mit der Wärmepumpe verbunden ist!</i><br></p>"
         },"rmu_s1": {
             "SE":"<b>RMU-40 S1</b>",
-            "EN":"<b>RMU-40 S1</b>"
+            "EN":"<b>RMU-40 S1</b>",
+            "DE":"<b>RMU-40 S1</b>"
         },"rmu_s2": {
             "SE":"<b>RMU-40 S2</b>",
-            "EN":"<b>RMU-40 S2</b>"
+            "EN":"<b>RMU-40 S2</b>",
+            "DE":"<b>RMU-40 S2</b>"
         },"rmu_s3": {
             "SE":"<b>RMU-40 S3</b>",
-            "EN":"<b>RMU-40 S3</b>"
+            "EN":"<b>RMU-40 S3</b>",
+            "DE":"<b>RMU-40 S3</b>"
         },"samba_stop": {
-            "SE":"<b>Stoppa Samba</b>"
+            "SE":"<b>Stoppa Samba</b>",
+            "EN":"<b>Stop Samba</b>",
+            "DE":"<b>Samba Stoppen</b>"
         },"samba_start": {
-            "SE":"<b>Starta Samba</b>"
+            "SE":"<b>Starta Samba</b>",
+            "EN":"<b>Start Samba</b>",
+            "DE":"<b>Samba starten</b>"
         },"nodered_restart": {
-            "SE":"<b>Starta om Node-RED</b>"
+            "SE":"<b>Starta om Node-RED</b>",
+            "EN":"<b>Restart Node-RED</b>",
+            "DE":"<b>Node-RED neu starten</b>"
         },"nodered_restart_info": {
-            "SE":"<p><b>Startar om Node-RED</b></p>"
+            "SE":"<p><b>Startar om Node-RED</b></p>",
+            "EN":"<p><b>Trigger a restart of Node-RED.</b></p>",
+            "DE":"<p><b>Neustart von Node-RED auslösen.</b></p>"
         },"hw_restart": {
-            "SE":"<b>Starta om hårdvaran</b>"
+            "SE":"<b>Starta om hårdvaran</b>",
+            "EN":"<b>Restart NibePi hardware</b>",
+            "DE":"<b>NibePi hardware neu starten</b>"
         },"hw_restart_info": {
-            "SE":"<p><b>Startar om NibePi hårdvara</b></p>"
+            "SE":"<p><b>Startar om NibePi hårdvara</b></p>",
+            "EN":"<p><b>Triggers a restart of the NibePi hardware.</b></p>",
+            "DE":"<p><b>Neustart der NibePi Hardware auslösen.</b></p>"
         },"hw_shutdown": {
-            "SE":"<b>Stäng av NibePi hårdvaran</b>"
+            "SE":"<b>Stäng av NibePi hårdvaran</b>",
+            "EN":"<b>Shutdown NibePi</b>",
+            "DE":"<b>NibePi herunterfahren</b>"
         },"hw_shutdown_info": {
-            "SE":"<p><b>Stänger av NibePi hårdvaran</b></p>"
+            "SE":"<p><b>Stänger av NibePi hårdvaran</b></p>",
+            "EN":"<p><b>Triggers a shutdown of the NibePi hardware.</b></p>",
+            "DE":"<p><b>Herunterfahren der NibePi Hardware auslösen.</b></p>"
         },"mqtt_info": {
-            "SE":"<p><b>MQTT</b></p><br>Aktivera åtkomst till MQTT broker.<br>NibePi har en inbyggd broker på 127.0.0.1:1883<br>Välj annars en extern broker.<br>Aktivera HA Discovery om Home Assistant automatiskt ska upptäcka aktiverade givare från NibePi"
+            "SE":"<p><b>MQTT</b></p><br>Aktivera åtkomst till MQTT broker.<br>NibePi har en inbyggd broker på 127.0.0.1:1883<br>Välj annars en extern broker.<br>Aktivera HA Discovery om Home Assistant automatiskt ska upptäcka aktiverade givare från NibePi",
+            "EN":"<p><b>MQTT</b></p><br>Activate the MQTT broker.<br>NibePi has an internal MQTT broker that runs on 127.0.0.1:1883<br>If deactivated, you can use an external broker.<br>Activate HA auto discovery, if HomeAssistant should detect NibePi's sensor automatically.",
+            "DE":"<p><b>MQTT</b></p><br>Aktiviert den MQTT broker.<br>NibePi hat einen internen MQTT Broker, der auf 127.0.0.1:1883 läuft.<br>Wenn deaktiviert, kann hier ein externer Broker angegeben werden.<br>Aktiviere HA Auto Discovery, wenn HomeAssistant die NibePi Sensoren automatisch erkennen soll."
         },"lat": {
-            "SE":"<b>Latitud</b>"
+            "SE":"<b>Latitud</b>",
+            "EN":"<b>Latitude</b>",
+            "DE":"<b>Breitengrad</b>"
         },"lon": {
-            "SE":"<b>Longitud</b>"
+            "SE":"<b>Longitud</b>",
+            "EN":"<b>Longitude</b>",
+            "DE":"<b>Längengrad</b>"
         },"home_size": {
-            "SE":"<b>Fastighetens storlek   </b>"
+            "SE":"<b>Fastighetens storlek</b>",
+            "EN":"<b>Building size (sqm)</b>",
+            "DE":"<b>Gebäudegröße (m²)</b>"
         },"update_info": {
-            "SE":"<p><b>Uppdateringar</b></p><br>Välj vilken version av NibePi som uppdateringar ska visas för.</p><p>Det finns flera olika utgåvor, Stable release är den senaste tillgängliga versionen.<br>Beta versionen är en test version som anses tillräckligt stabil att kunna provas.<br>Snapshot versionen är experimentell och används för att prova fram lösningar på olika problem som uppstår för användare<br><br>Efter färdig uppdatering startar NibePi om och Modbus kommunikationslarm kan genereras."
+            "SE":"<p><b>Uppdateringar</b></p><br>Välj vilken version av NibePi som uppdateringar ska visas för.</p><p>Det finns flera olika utgåvor, Stable release är den senaste tillgängliga versionen.<br>Beta versionen är en test version som anses tillräckligt stabil att kunna provas.<br>Snapshot versionen är experimentell och används för att prova fram lösningar på olika problem som uppstår för användare<br><br>Efter färdig uppdatering startar NibePi om och Modbus kommunikationslarm kan genereras.",
+            "EN":"<p><b>Updates</b></p><br>Choose update channel.</p><p>There are several update channels available: Stable releases are the latest relased versions.<br>Beta versions are not released yet, but considered stable enough for testing.<br>Snapshot releases are experimental versions which can contain not thoroughly tested fixes for specific problems. These versions can be unstable.<br><br>NibePi restarts after the update. This can lead to a Modbus alarm being raised by the heatpump.",
+            "DE":"<p><b>Updates</b></p><br>Update Kanal auswählen.</p><p>Es stehen mehrere Update Kanäle zur Verfügung: Stable Versionen sind die jeweils neusten veröffentlichten Versionen.<br>Beta Versionen sind noch nicht offizell veröffentlicht. Sie sind aber bereits stabil genug zum Testen.<br>Snapshot Versionen können nicht intensiv getestete Patches enthalten um speziefische Probleme zu beheben. Diese Versionen können eventuell instabil sein.<br><br>Nach dem Update führt NibePi einen Neustart durch. Dies kann zu einem Modbus Alarm an der Wärmepumpe führen."
         },"update_check": {
-            "SE":"<b>Kolla efter Uppdateringar</b>"
+            "SE":"<b>Kolla efter Uppdateringar</b>",
+            "EN":"<b>Check for updates</b>",
+            "DE":"<b>Auf Updates prüfen</b>"
         },"update_run": {
-            "SE":"<b>Uppdatera</b>"
+            "SE":"<b>Uppdatera</b>",
+            "EN":"<b>Update</b>",
+            "DE":"<b>Aktualisieren</b>"
         },"extra_sensor_info": {
-            "SE":"<p><b>Extra givare</b></p><br>Här kan du lägga till extra givare som kan användas i funktionerna<br>Det går att välja givare från register i värmepumpen eller via ett MQTT Topic"
+            "SE":"<p><b>Extra givare</b></p><br>Här kan du lägga till extra givare som kan användas i funktionerna<br>Det går att välja givare från register i värmepumpen eller via ett MQTT Topic",
+            "EN":"<p><b>Additional sensors</b></p><br>Here you can add additional sensors to be used in the different features.<br>You can select a sensor from a Modbus register for from MQTT topic",
+            "DE":"<p><b>Zusätzliche Sensoren</b></p><br>Hier kannst du zusätzliche Sensoren hinzufügen, die in den verschiedenen Funktionen genutzt werden können.<br>Du kannst einen Sensor entweder über ein Modbus Register hinzufügen oder über ein MQTT Topic."
         },"sensor_timeout": {
-            "SE":"<b>Timeout tid för MQTT givare</b><br><i>Givaren måste uppdateras inom detta interval annars ignoreras den. OBS \"0\" inaktiverar timeout.</i>"
+            "SE":"<b>Timeout tid för MQTT givare</b><br><i>Givaren måste uppdateras inom detta interval annars ignoreras den. OBS \"0\" inaktiverar timeout.</i>",
+            "EN":"<b>Timeout for MQTT sensors.</b><br><i>The sensor values must be updated whithin this time, otherwise they are ignored. Note: \"0\" deactivates the timeout.</i>",
+            "DE":"<b>Timeout für MQTT Sensoren.</b><br><i>Sensorwerte müssen innerhalb dieser Zeit aktualisiert werden, ansonsten werden sie ignoriert. Hinweis: \"0\" deaktiviert den Timeout.</i>"
         },"extra_sensor_remove": {
-            "SE":"<b>Ta bort</b><br><i>Ta bort en extra givare genom att markera den i listan</i>"
+            "SE":"<b>Ta bort</b><br><i>Ta bort en extra givare genom att markera den i listan</i>",
+            "EN":"<b>Remove</b><br><i>Remove an additional sensor by selecting it from the list.</i>",
+            "DE":"<b>Entfernen</b><br><i>Entfernt einen zusätzlichen Sensor durch Auswählen in der Liste.</i>"
         },"loging_info": {
-            "SE":"<p><b>Loggning</b></p><br><i>Loggning sker  till \"/tmp/nibepi.log\"<br>I SSH kör kommando \"tail -f /tmp/nibepi.log\"</i>"
+            "SE":"<p><b>Loggning</b></p><br><i>Loggning sker  till \"/tmp/nibepi.log\"<br>I SSH kör kommando \"tail -f /tmp/nibepi.log\"</i>",
+            "EN":"<p><b>Logging</b></p><br><i>Log will be written to \"/tmp/nibepi.log\"<br>In SSH session, run \"tail -f /tmp/nibepi.log\" to read the log.</i>",
+            "DE":"<p><b>Protkollierung</b></p><br><i>Protokoll wird nach \"/tmp/nibepi.log\" geschrieben.<br>Zum Lesen des Protokolls in einer SSH Verbindung \"tail -f /tmp/nibepi.log\" ausführen.</i>"
         },"forecast_s1_info": {
-            "SE":"<p><b>Prognosreglering klimatsystem 1</b></p><br><i>Styr värmeproduktionen efter prognostemperatur istället.<br>Rekommenderas framför allt för golvvärme.</i>"
+            "SE":"<p><b>Prognosreglering klimatsystem 1</b></p><br><i>Styr värmeproduktionen efter prognostemperatur istället.<br>Rekommenderas framför allt för golvvärme.</i>",
+            "EN":"<p><b>Forecast control climate system 1</b></p><br><i>Controls heat production based on temperature forecast. Recommended for floor heating systems.</i>",
+            "DE":"<p><b>Progrnoseregelung Klimasystem 1</b></p><br><i>Regelt die Wärmeerzeugung auf Basis der Temperaturvorhersage.<br>Empfohlen für Fußbodenheizungen.</i>"
         },"forecast_s2_info": {
-            "SE":"<p><b>Prognosreglering klimatsystem 2</b></p><br><i>Styr värmeproduktionen efter prognostemperatur istället.<br>Rekommenderas framför allt för golvvärme.</i>"
+            "SE":"<p><b>Prognosreglering klimatsystem 2</b></p><br><i>Styr värmeproduktionen efter prognostemperatur istället.<br>Rekommenderas framför allt för golvvärme.</i>",
+            "EN":"<p><b>Forecast control climate system 2</b></p><br><i>Controls heat production based on temperature forecast. Recommended for floor heating systems.</i>",
+            "DE":"<p><b>Progrnoseregelung Klimasystem 2</b></p><br><i>Regelt die Wärmeerzeugung auf Basis der Temperaturvorhersage.<br>Empfohlen für Fußbodenheizungen.</i>"
         },"forecast_update_info": {
-            "SE":"<i>Begär ny väderdata och uppdatera grafen med nya värden.</i>"
+            "SE":"<i>Begär ny väderdata och uppdatera grafen med nya värden.</i>",
+            "EN":"<i>Fetch new weather data and update graph with new values.</i>",
+            "DE":"<i>Neue Wetterdaten anfordern und Diagramm mit neuen Werten aktualisieren.</i>",
         },"forecast_sensor_s1": {
-            "SE":"<b>Välj inomhusgivare S1</b>"
+            "SE":"<b>Välj inomhusgivare S1</b>",
+            "EN":"<b>Select indoor sensor S1</b>",
+            "DE":"<b>Innenraum-Temperatursensor S1</b>"
         },"enable": {
             "SE":"<b>Aktivera</b>",
-            "EN":"<b>Activate</b>"
+            "EN":"<b>Activate</b>",
+            "DE":"<b>Aktivieren</b>"
         },"forecast_time": {
             "SE":"<b>Prognostid</b>",
-            "EN":"<b>Forecast time</b>"
+            "EN":"<b>Forecast time</b>",
+            "DE":"<b>Vorhersagezeit</b>"
         },"forecast_correction": {
-            "SE":"<p><b>Inställningar</b></p><br>Prognoskorrigering jämför nuvarande utomhustemperatur mot nuvarande prognostemperatur.<br>Samma avvikelse appliceras även på framtida prognostemperatur."
+            "SE":"<p><b>Inställningar</b></p><br>Prognoskorrigering jämför nuvarande utomhustemperatur mot nuvarande prognostemperatur.<br>Samma avvikelse appliceras även på framtida prognostemperatur.",
+            "EN":"<p><b>Settings</b></p><br>Forecast correction compares the current outdoor temperature to the current forecast temperature. The same deviation is then also applied to future forecast temperatures.<br>Samma avvikelse appliceras även på framtida prognostemperatur.",
+            "DE":"<p><b>Einstellungen</b></p><br>Die Progrnosekorrektur vergleicht die aktuelle Außentemperatur mit der aktuellen Prognosetemperatur.<br>Die gleiche Abweichung wird auch auf zukünftige, prognostierte Temperaturen angewendet."
         },"forecast_adjust": {
-            "SE":"<b>Aktivera Prognoskorrigering</b>"
+            "SE":"<b>Aktivera Prognoskorrigering</b>",
+            "EN":"<b>Activate forecast correction</b>",
+            "DE":"<b>Prognosekorrektur aktivieren</b>"
         },"sunfactor_info": {
-            "SE":"<p><b>Solfaktor</b></p><br>Vid mycket solinstrålning så går det att ställa en solfaktor.<br>Värdet som valts läggs till på prognostemperaturen."
+            "SE":"<p><b>Solfaktor</b></p><br>Vid mycket solinstrålning så går det att ställa en solfaktor.<br>Värdet som valts läggs till på prognostemperaturen.",
+            "SE":"<p><b>Solar factor</b></p><br>In case of high solar radiation, it is possible to set a solar factor.<br>This value is added to the forecast temperature.",
+            "SE":"<p><b>Sonnenfaktor</b></p><br>Bei starker Sonneneinstrahlung kann ein Sonnenfaktor angegeben werden.<br>Dieser Wert wird zur prognostizierten Temperatur addiert."
         },"wind_direction_info": {
-            "SE":"<i>Riktning: Norr: -1, Söder: -2, Väst: -3, Öst: -4</i>"
+            "SE":"<i>Riktning: Norr: -1, Söder: -2, Väst: -3, Öst: -4</i>",
+            "EN":"<i>Direction: North: -1, South: -2, West: -3, East: -4</i>",
+            "DE":"<i>Richtung: Nord: -1, Süd: -2, West: -3, Ost: -4</i>"
         },"windfactor_info": {
-            "SE":"<p><b>Vindfaktor</b></p><br>Om fastigheten är utsatt för mycket vind kan man ta med detta i prognosen och kompensera med höjt börvärde.<br>Justeringsfaktorn är ställbart från varje väderstreck."
+            "SE":"<p><b>Vindfaktor</b></p><br>Om fastigheten är utsatt för mycket vind kan man ta med detta i prognosen och kompensera med höjt börvärde.<br>Justeringsfaktorn är ställbart från varje väderstreck.",
+            "EN":"<p><b>Wind factor</b></p><br>Om fastigheten är utsatt för mycket vind kan man ta med detta i prognosen och kompensera med höjt börvärde.<br>Justeringsfaktorn är ställbart från varje väderstreck.", 
+            "DE":"<p><b>Vindfaktor</b></p><br>Om fastigheten är utsatt för mycket vind kan man ta med detta i prognosen och kompensera med höjt börvärde.<br>Justeringsfaktorn är ställbart från varje väderstreck.", 
         },"wind_factor_n": {
             "SE":"<b>Norr</b>"
         },"wind_factor_s": {
