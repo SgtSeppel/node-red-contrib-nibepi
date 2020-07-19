@@ -243,15 +243,15 @@
         },"indoor_set": {
             "SE":"<b>Inomhus börvärde</b><br><i>Ställ rumsbörvärdet här. Samma värde visas/ändras i värmepumpen</i>",
             "SE":"<b>Indoor temperature set value</b><br><i>Set the room temperature set point here. The same value is shown/changed in the heatpump</i>",
-            "SE":"<b>Innenraumtemperatur Sollwert</b><br><i>Stelle hier den Sollwert für die Innenraumtemperatur ein. Der selbe Wert wird in der Wärmepumpe angezeigt/geändert</i>"
+            "SE":"<b>Raumtemperatur Sollwert</b><br><i>Stelle hier den Sollwert für die Raumtemperatur ein. Der selbe Wert wird in der Wärmepumpe angezeigt/geändert</i>"
         },"indoor_diff": {
             "SE":"<b>Avvikelse</b><br><i>Ungefärlig uträkning för hur mycket temperaturen avviker från börvärdet.</i>",
             "SE":"<b>Deviation</b><br><i>Approximate calculation of how much the room temperature deviates from the set point.</i>",
-            "SE":"<b>Regelabweichung</b><br><i>Ungefähre Berechnung, um wie viel die Innenraumtemperatur vom Sollwert abweicht.</i>"
+            "SE":"<b>Regelabweichung</b><br><i>Ungefähre Berechnung, um wie viel die Raumtemperatur vom Sollwert abweicht.</i>"
         },"indoor_temp": {
             "SE":"<b>Inomhustemperatur</b>",
             "EN":"<b>Indoor temperature</b>",
-            "DE":"<b>Innenraumtemperatur</b>",
+            "DE":"<b>Raumtemperatur</b>",
         },"indoor_curveadjust": {
             "SE":"<b>Kurvjustering</b><br><i>Aktuell kurvjustering vid NibePis reglering</i>",
             "EN":"<b>Curve adjustment</b><br><i>Current curve adjustment according to NibePis control</i>",
@@ -270,21 +270,35 @@
             "DE":"<b>Temperatursensor wählen</b>"
         },"indoor_settings_info": {
             "SE":"<p><b>Inställningar</b></p><br>Övergripande inställningar för inomhusregleringen",
-            "SE":"<p><b>Inställningar</b></p><br>Övergripande inställningar för inomhusregleringen",
-            "SE":"<p><b>Inställningar</b></p><br>Övergripande inställningar för inomhusregleringen"
+            "EN":"<p><b>Settings</b></p><br>General settings for the room temperature control",
+            "DE":"<p><b>Einstellungen</b></p><br>Allgemeine Einstellungen für die Raumtemperatur-Regelung"
         },"indoor_settings_outside": {
-            "SE":"<b>Utomhustemperatur blockering</b><br><i>Välj vid vilken utomhustemperatur som värmen ska blockeras</i>"
+            "SE":"<b>Utomhustemperatur blockering</b><br><i>Välj vid vilken utomhustemperatur som värmen ska blockeras</i>",
+            "EN":"<b>Heating stop</b><br><i>Select at which outside temperature the heating should be stopped.</i>",
+            "DE":"<b>Heizungsstop</b><br><i>Einstellung bei welcher Außentemperatur die Heizung stoppen soll.</i>"
         },"indoor_data_dm": {
-            "SE":"<b>Gradminuter</b>"
+            "SE":"<b>Gradminuter</b>",
+            "EN":"<b>Degree minutes</b>",
+            "DE":"<b>Gradminuten</b>"
         },"indoor_outside": {
-            "SE":"<b>Utomhustemperatur</b>"
+            "SE":"<b>Utomhustemperatur</b>",
+            "EN":"<b>Outside temperature</b>",
+            "DE":"<b>Außentemperatur</b>"
         },"last_updated": {
-            "SE":"<b>Senast uppdaterad</b>"
+            "SE":"<b>Senast uppdaterad</b>",
+            "EN":"<b>Last update</b>",
+            "DE":"<b>Zuletzt aktualisiert</b>"
         },"indoor_data_info": {
-            "SE":"<p><b>Data</b></p>"
+            "SE":"<p><b>Data</b></p>",
+            "EN":"<p><b>Data</b></p>",
+            "DE":"<p><b>Daten</b></p>"
         },"dm_reset_enable": {
-            "SE":"<b>Gradminut återställning</b><br><i>När inomhusbörvärdet är uppnått så återställs gradminuter till startvärdet<br>Ställ in hur många grader över inomhusbörvärdet det ska aktiveras vid</i>"
+            "SE":"<b>Gradminut återställning</b><br><i>När inomhusbörvärdet är uppnått så återställs gradminuter till startvärdet<br>Ställ in hur många grader över inomhusbörvärdet det ska aktiveras vid</i>",
+            "EN":"<b>Degree minute reset</b><br><i>When the indoor temperature set point is reached, the degree minutes will be reset to the start value.<br>Define at which temperature above the set point this should happen.</i>",
+            "DE":"<b>Gradminuten reset</b><br><i>Bei Erreichen der Innenraum-Solltemperatur werden die Gradminuten auf den Anfangswert zurückgesetzt.<br>Stelle ein, bei wieviel Grad über dem Sollwert das passieren soll.</i>"
         },"dm_reset_enable_stop": {
+            "SE":"<b>Stoppa värmeproduktion</b><br><i>När inomhusbörvärdet är uppnått så återställs gradminuter till 100 och värmepumpen stannar<br>Ställ in hur många grader över inomhusbörvärdet det ska aktiveras vid</i>",
+            "SE":"<b>Stoppa värmeproduktion</b><br><i>När inomhusbörvärdet är uppnått så återställs gradminuter till 100 och värmepumpen stannar<br>Ställ in hur många grader över inomhusbörvärdet det ska aktiveras vid</i>",
             "SE":"<b>Stoppa värmeproduktion</b><br><i>När inomhusbörvärdet är uppnått så återställs gradminuter till 100 och värmepumpen stannar<br>Ställ in hur många grader över inomhusbörvärdet det ska aktiveras vid</i>"
         },"diff": {
             "SE":"<p><b>Differens</b></p>"
