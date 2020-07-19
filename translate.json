@@ -147,11 +147,11 @@
         },"forecast_s1_info": {
             "SE":"<p><b>Prognosreglering klimatsystem 1</b></p><br><i>Styr värmeproduktionen efter prognostemperatur istället.<br>Rekommenderas framför allt för golvvärme.</i>",
             "EN":"<p><b>Forecast control climate system 1</b></p><br><i>Controls heat production based on temperature forecast. Recommended for floor heating systems.</i>",
-            "DE":"<p><b>Progrnoseregelung Klimasystem 1</b></p><br><i>Regelt die Wärmeerzeugung auf Basis der Temperaturvorhersage.<br>Empfohlen für Fußbodenheizungen.</i>"
+            "DE":"<p><b>Prognoseregelung Klimasystem 1</b></p><br><i>Regelt die Wärmeerzeugung auf Basis der Temperaturvorhersage.<br>Empfohlen für Fußbodenheizungen.</i>"
         },"forecast_s2_info": {
             "SE":"<p><b>Prognosreglering klimatsystem 2</b></p><br><i>Styr värmeproduktionen efter prognostemperatur istället.<br>Rekommenderas framför allt för golvvärme.</i>",
             "EN":"<p><b>Forecast control climate system 2</b></p><br><i>Controls heat production based on temperature forecast. Recommended for floor heating systems.</i>",
-            "DE":"<p><b>Progrnoseregelung Klimasystem 2</b></p><br><i>Regelt die Wärmeerzeugung auf Basis der Temperaturvorhersage.<br>Empfohlen für Fußbodenheizungen.</i>"
+            "DE":"<p><b>Prognoseregelung Klimasystem 2</b></p><br><i>Regelt die Wärmeerzeugung auf Basis der Temperaturvorhersage.<br>Empfohlen für Fußbodenheizungen.</i>"
         },"forecast_update_info": {
             "SE":"<i>Begär ny väderdata och uppdatera grafen med nya värden.</i>",
             "EN":"<i>Fetch new weather data and update graph with new values.</i>",
@@ -186,49 +186,91 @@
             "DE":"<i>Richtung: Nord: -1, Süd: -2, West: -3, Ost: -4</i>"
         },"windfactor_info": {
             "SE":"<p><b>Vindfaktor</b></p><br>Om fastigheten är utsatt för mycket vind kan man ta med detta i prognosen och kompensera med höjt börvärde.<br>Justeringsfaktorn är ställbart från varje väderstreck.",
-            "EN":"<p><b>Wind factor</b></p><br>Om fastigheten är utsatt för mycket vind kan man ta med detta i prognosen och kompensera med höjt börvärde.<br>Justeringsfaktorn är ställbart från varje väderstreck.", 
-            "DE":"<p><b>Vindfaktor</b></p><br>Om fastigheten är utsatt för mycket vind kan man ta med detta i prognosen och kompensera med höjt börvärde.<br>Justeringsfaktorn är ställbart från varje väderstreck.", 
+            "EN":"<p><b>Wind factor</b></p><br>If the building is exposed to high winds, a wind factor can be set to compensate with a higher setpoint. <br>The adjustment factor can be set for each cardinal direction individually.", 
+            "DE":"<p><b>Windfaktor</b></p><br>Wenn das Gebäude starkem Wind ausgesetzt ist, kann dies durch einen Windfaktor in die Prognose einbezogen und mit einem höheren Sollwert kompensiert werden.<br>Der Windfaktor kann für jede Himmelsrichtung gesondert angegeben werden.", 
         },"wind_factor_n": {
-            "SE":"<b>Norr</b>"
+            "SE":"<b>Norr</b>",
+            "EN":"<b>North</b>",
+            "DE":"<b>Nord</b>"
         },"wind_factor_s": {
-            "SE":"<b>Söder</b>"
+            "SE":"<b>Söder</b>",
+            "EN":"<b>South</b>",
+            "DE":"<b>Süd</b>"
         },"wind_factor_e": {
-            "SE":"<b>Öst</b>"
+            "SE":"<b>Öst</b>",
+            "EN":"<b>East</b>",
+            "DE":"<b>Ost</b>"
         },"wind_factor_w": {
-            "SE":"<b>Väst</b>"
+            "SE":"<b>Väst</b>",
+            "EN":"<b>West</b>",
+            "DE":"<b>West</b>"
         },"clear": {
-            "SE":"<b>Klart väder</b>"
+            "SE":"<b>Klart väder</b>",
+            "EN":"<b>Clear weather</b>",
+            "DE":"<b>Klares Wetter</b>"
         },"mostly_clear": {
-            "SE":"<b>Mestadels klart väder</b>"
+            "SE":"<b>Mestadels klart väder</b>",
+            "EN":"<b>Mostly clear weather</b>",
+            "DE":"<b>Überwiegend klares Wetter</b>"
         },"half_clear": {
-            "SE":"<b>Halvklart väder</b>"
+            "SE":"<b>Halvklart väder</b>",
+            "EN":"<b>Partially clear weather</b>",
+            "DE":"<b>Teilweise klares Wetter</b>"
         },"indoor_info_s1": {
-            "SE":"<p><b>Inomhusreglering S1</b></p><br>Inomhusreglering rekommenderas främst för högtempererade system (Radiatorer), det går att använda med lågtempererade system med mindre faktor<br><i>OBS golvvärme i betong anses väldigt trögt och en faktor över 2 är aldrig att rekommendera</i>"
+            "SE":"<p><b>Inomhusreglering S1</b></p><br>Inomhusreglering rekommenderas främst för högtempererade system (Radiatorer), det går att använda med lågtempererade system med mindre faktor<br><i>OBS golvvärme i betong anses väldigt trögt och en faktor över 2 är aldrig att rekommendera</i>",
+            "EN":"<p><b>Indoor control S1</b></p><br>Indoor control is recommended for high temperature systems (radiators). With a lower factor, it can be used for low temperature systems.<br><i>Note: Floor heating in concrete is considered very inert and a factor above 2 is not recommended.</i>",
+            "DE":"<p><b>Innenraumsteuerung S1</b></p><br>Die Innentemperatur-Steuerung wird hauptsächlich für Hochtemperatursysteme (Heizkörper) empfohlen. Mit einem geringen Faktor, kann sie mit Niedertemperatursystemen verwendet werden.<br><i>Hinweis: Fußbodenheizungen in Estrich sind sehr träge Systeme und ein Faktor über 2 wird nicht empfohlen.</i>"
         },"indoor_info_s2": {
-            "SE":"<p><b>Inomhusreglering S2</b></p><br>Inomhusreglering rekommenderas främst för högtempererade system (Radiatorer), det går att använda med lågtempererade system med mindre faktor<br><i>OBS golvvärme i betong anses väldigt trögt och en faktor över 2 är aldrig att rekommendera</i>"
+            "SE":"<p><b>Inomhusreglering S2</b></p><br>Inomhusreglering rekommenderas främst för högtempererade system (Radiatorer), det går att använda med lågtempererade system med mindre faktor<br><i>OBS golvvärme i betong anses väldigt trögt och en faktor över 2 är aldrig att rekommendera</i>",
+            "EN":"<p><b>Indoor temperature control S2</b></p><br>Indoor control is recommended for high temperature systems (radiators). With a lower factor, it can be used for low temperature systems.<br><i>Note: Floor heating in concrete is considered very inert and a factor above 2 is not recommended.</i>",
+            "DE":"<p><b>Innentemperatur-Steuerung S2</b></p><br>Die Innentemperatur-Regelung wird hauptsächlich für Hochtemperatursysteme (Heizkörper) empfohlen. Mit einem geringen Faktor, kann sie mit Niedertemperatursystemen verwendet werden.<br><i>Hinweis: Fußbodenheizungen in Estrich sind sehr träge Systeme und ein Faktor über 2 wird nicht empfohlen.</i>"
         },"indoor_options_label": {
-            "SE":"<b>Inomhusreglering</b>"
+            "SE":"<b>Inomhusreglering</b>",
+            "SE":"<b>Indoor temperature control</b>",
+            "SE":"<b>Innentemperatur-Regelung</b>"
         },"indoor_options_off": {
-            "SE":"Avaktiverat"
+            "SE":"Avaktiverat",
+            "EN":"Deactivated",
+            "DE":"Deaktiviert"
         },"indoor_options_nibe": {
-            "SE":"Nibes Inomhusreglering"
+            "SE":"Nibes Inomhusreglering",
+            "EN":"Nibes Indoor temperature control",
+            "DE":"Nibes Innentemperatur-Steuerung"
         },"indoor_options_nibepi": {
-            "SE":"NibePis Inomhusreglering"
+            "SE":"NibePis Inomhusreglering",
+            "EN":"NibePis Indoor temperature control",
+            "DE":"NibePis Innentemperatur-Steuerung"
         },"indoor_set": {
-            "SE":"<b>Inomhus börvärde</b><br><i>Ställ rumsbörvärdet här. Samma värde visas/ändras i värmepumpen</i>"
+            "SE":"<b>Inomhus börvärde</b><br><i>Ställ rumsbörvärdet här. Samma värde visas/ändras i värmepumpen</i>",
+            "SE":"<b>Indoor temperature set value</b><br><i>Set the room temperature set point here. The same value is shown/changed in the heatpump</i>",
+            "SE":"<b>Innenraumtemperatur Sollwert</b><br><i>Stelle hier den Sollwert für die Innenraumtemperatur ein. Der selbe Wert wird in der Wärmepumpe angezeigt/geändert</i>"
         },"indoor_diff": {
-            "SE":"<b>Avvikelse</b><br><i>Ungefärlig uträkning för hur mycket temperaturen avviker från börvärdet.</i>"
+            "SE":"<b>Avvikelse</b><br><i>Ungefärlig uträkning för hur mycket temperaturen avviker från börvärdet.</i>",
+            "SE":"<b>Deviation</b><br><i>Approximate calculation of how much the room temperature deviates from the set point.</i>",
+            "SE":"<b>Regelabweichung</b><br><i>Ungefähre Berechnung, um wie viel die Innenraumtemperatur vom Sollwert abweicht.</i>"
         },"indoor_temp": {
-            "SE":"<b>Inomhustemperatur</b>"
+            "SE":"<b>Inomhustemperatur</b>",
+            "EN":"<b>Indoor temperature</b>",
+            "DE":"<b>Innenraumtemperatur</b>",
         },"indoor_curveadjust": {
-            "SE":"<b>Kurvjustering</b><br><i>Aktuell kurvjustering vid NibePis reglering</i>"
+            "SE":"<b>Kurvjustering</b><br><i>Aktuell kurvjustering vid NibePis reglering</i>",
+            "EN":"<b>Curve adjustment</b><br><i>Current curve adjustment according to NibePis control</i>",
+            "DE":"<b>Kurvenanpassung</b><br><i>Aktuelle Kurvenanpassung entsprechend NibePi's Regelung</i>"
         },"indoor_factor": {
-            "SE":"<b>Faktor för rumsgivare</b><br><i>Ställ in hur mycket rumsgivaren ska påverka framledningstemperaturen.</i>"
+            "SE":"<b>Faktor för rumsgivare</b><br><i>Ställ in hur mycket rumsgivaren ska påverka framledningstemperaturen.</i>",
+            "EN":"<b>Room sensor factor</b><br><i>Define how much the room temperature sensor affects the supply temperature.</i>",
+            "DE":"<b>Raumtemperatur-Faktor</b><br><i>Lege fest, wie start der Raumtemperatursensor die Vorlauftemperatur beeinflusst.</i>"
         },"indoor_info_sensor": {
-            "SE":"<p>Välj en temperaturgivare som ska användas i grafen och för ekvationen<br><i>OBS. Endast för reglering via NibePi</i></p>"
+            "SE":"<p>Välj en temperaturgivare som ska användas i grafen och för ekvationen<br><i>OBS. Endast för reglering via NibePi</i></p>",
+            "EN":"<p>Select a temperature sensor to be used in the graph and the control alogrithm.<br><i>Note: Only for control via NibePi</i></p>",
+            "DE":"<p>Wähle einen Temperatursensor, der für das Diagramm und die Berechnung verwendet werden soll.<br><i>Hinweis: Nur bei Steuerung via NibePi</i></p>"
         },"indoor_sensor_label": {
-            "SE":"<b>Välj rumsgivare</b>"
+            "SE":"<b>Välj rumsgivare</b>",
+            "EN":"<b>Select temperature sensor</b>",
+            "DE":"<b>Temperatursensor wählen</b>"
         },"indoor_settings_info": {
+            "SE":"<p><b>Inställningar</b></p><br>Övergripande inställningar för inomhusregleringen",
+            "SE":"<p><b>Inställningar</b></p><br>Övergripande inställningar för inomhusregleringen",
             "SE":"<p><b>Inställningar</b></p><br>Övergripande inställningar för inomhusregleringen"
         },"indoor_settings_outside": {
             "SE":"<b>Utomhustemperatur blockering</b><br><i>Välj vid vilken utomhustemperatur som värmen ska blockeras</i>"
