@@ -481,42 +481,77 @@
             "EN":"<p><b>Electricity price adaption S1</b></p><br>Select the curve adaption for different price levels.<br>Regulation against room temperature sensors is strongly recommended since there might be longer periods of high prices.",
             "DE":"<p><b>Strompreisregelung S1</b></p><br>Stelle die Kurvenanpassung für die unterschiedlichen Strompreisniveaus ein.<br>Regelung gegen einen Temperatursensor wird strengstens empfohlen, da es durchaus lange Phasen mit hohen Strompreisen geben kann."
         },"price_s2_info": {
-            "SE":"<p><b>Elprisreglering S2</b></p><br>Välj hur mycket kurvjusteringen ska justeras vid olika prisnivåer.<br>Reglering mot rumsgivare rekommenderas starkt, ibland förekommer det längre perioder av samma låga eller höga pris"
+            "SE":"<p><b>Elprisreglering S2</b></p><br>Välj hur mycket kurvjusteringen ska justeras vid olika prisnivåer.<br>Reglering mot rumsgivare rekommenderas starkt, ibland förekommer det längre perioder av samma låga eller höga pris",
+            "EN":"<p><b>Electricity price adaption S2</b></p><br>Select the curve adaption for different price levels.<br>Regulation against room temperature sensors is strongly recommended since there might be longer periods of high prices.",
+            "DE":"<p><b>Strompreisregelung S2</b></p><br>Stelle die Kurvenanpassung für die unterschiedlichen Strompreisniveaus ein.<br>Regelung gegen einen Temperatursensor wird strengstens empfohlen, da es durchaus lange Phasen mit hohen Strompreisen geben kann."
         },"indoor_sensor": {
-            "SE":"<b>Rumsgivare</b>"
+            "SE":"<b>Rumsgivare</b>",
+            "EN":"<b>Room sensor</b>",
+            "DE":"<b>Raumtemperatursensor</b>"
         },"difference": {
-            "SE":"<b>Differens</b>"
+            "SE":"<b>Differens</b>",
+            "EN":"<b>Differece</b>",
+            "DE":"<b>Abweichung</b>"
         },"price_s1_graph": {
-            "SE":"<p><b>Graf S1</b></p>"
+            "SE":"<p><b>Graf S1</b></p>",
+            "EN":"<p><b>Graph S1</b></p>",
+            "DE":"<p><b>Diagramm S1</b></p>"
         },"price_s2_graph": {
-            "SE":"<p><b>Graf S2</b></p>"
+            "SE":"<p><b>Graf S2</b></p>",
+            "EN":"<p><b>Graph S2</b></p>",
+            "DE":"<p><b>Diagramm S2</b></p>"
         },"time": {
             "SE":"<b>Tid</b>",
-            "EN":"<b>Time</b>"
+            "EN":"<b>Time</b>",
+            "DE":"<b>Zeit</b>"
         },"start_heat_info": {
-            "SE":"<p><b>Värmeinformation</b></p>"
+            "SE":"<p><b>Värmeinformation</b></p>",
+            "EN":"<p><b>Heating information</b></p>",
+            "DE":"<p><b>Wärme-Informationen</b></p>"
         },"start_info": {
-            "SE":"<p><b>Husinformation</b></p><br><p>För att använda Prognosreglering behöver husets koordinater anges.<br>Fastighetens storlek anges i kvm (Uppvärmd yta) och används för att beräkna rätt flöde för frånluftsvärmepumpar med automatiskt luftflöde</p>"
+            "SE":"<p><b>Husinformation</b></p><br><p>För att använda Prognosreglering behöver husets koordinater anges.<br>Fastighetens storlek anges i kvm (Uppvärmd yta) och används för att beräkna rätt flöde för frånluftsvärmepumpar med automatiskt luftflöde</p>",
+            "EN":"<p><b>House information</b></p><br><p>To use Forecast regulation, the house's coordinates need to be specified.<br>The size of the building is given in sqm (heated area) and is used to calculate the correct flow for exhaust air heat pumps with automatic air flow </p>",
+            "DE":"<p><b>Hausinformationen</b></p><br><p>Um die Prognoseregelung verwenden zu können, müssen die Koordinaten des Hauses angegeben werden.<br>Die Größe des Gebäudes wird in m² angegeben (beheizte Fläche) und wird verwendet, um den korrekten Durchfluss für Abluftwärmepumpen mit automatischem Luftstrom zu berechnen</p>"
         },"cpr_info": {
-            "SE":"<p><b>Kompressorförbrukning</b></p><br><p>Kompressorns förbrukning för värme och varmvatten<br><i>OBS. Notera att detta kan skilja sig avsevärt från en extern elmätare som mäter hela värmepumpens förbrukning</i></p>"
+            "SE":"<p><b>Kompressorförbrukning</b></p><br><p>Kompressorns förbrukning för värme och varmvatten<br><i>OBS. Notera att detta kan skilja sig avsevärt från en extern elmätare som mäter hela värmepumpens förbrukning</i></p>",
+            "EN":"<p><b>Kompressor consumption</b></p><br><p>Compressor consumption for heating and hot water<br><i>NOTE: This can differ significantly from an external electricity meter that measures the entire heat pump consumption</i></p>",
+            "DE":"<p><b>Kompressorverbrauch</b></p><br><p>Kompressorverbrauch für Wärme und Warmwasser<br><i>HINWEIS: Beachte, dass dies erheblich von einem externen Stromzähler abweichen kann, der den gesamten Wärmepumpenverbrauch misst</i></p>"
         },"register_info": {
-            "SE":"<p><b>Registerhantering</b></p><br><p>Välj vilka register som ska hämtas från värmepumpen<br>Register aktiverade med LOG.SET är förvalda och går ej ta bort.<br>Alla valda register syns till höger och det senaste aktuella hämtade värdet visas.<br><i>OBS. Ju fler register som väljs kommer göra att registerna uppdateras mindre ofta. Detta eftersom att värmepumpen endast kan hantera ett visst antal meddelanden i sekunden.</i></p>"
+            "SE":"<p><b>Registerhantering</b></p><br><p>Välj vilka register som ska hämtas från värmepumpen<br>Register aktiverade med LOG.SET är förvalda och går ej ta bort.<br>Alla valda register syns till höger och det senaste aktuella hämtade värdet visas.<br><i>OBS. Ju fler register som väljs kommer göra att registerna uppdateras mindre ofta. Detta eftersom att värmepumpen endast kan hantera ett visst antal meddelanden i sekunden.</i></p>",
+            "EN":"<p><b>Register management</b></p><br><p>Select which registers are to be retrieved from the heat pump<br>Registers activated in the LOG.SET file are preselected and cannot be deleted<br><br>All selected registers are visible on the right and the last retrieved value is displayed.<br><i>NOTE: The more registers you select, the less often the registers will be updated. This is due to the fact that the heatpump can only process a certain amoutn registers per second.</i></p>",
+            "DE":"<p><b>Registerverwaltung</b></p><br><p>Wähle aus, welche Register von der Wärmepumpe abgerufen werden sollen.<br>In der LOG.SET Datei aktivierte Register sind vorausgewählt und können nicht gelöscht werden<br>Alle ausgewählten Register werden rechts angezeigt und der zuletzt abgerufene Wert wird angezeigt.<br><i> HINWEIS: Je mehr Register ausgewählt werden, desto seltener werden die Register aktualisiert. Dies liegt daran, dass die Wärmepumpe nur eine bestimmte Anzahl von Registern pro Sekunde verarbeiten kann.</i></p>"
         },"data_info": {
-            "SE":"<p><b>Datahantering</b></p><br><p>Alla valda register visas här under, inkl. nuvarande värde.<br>För att visa data i graf nedan, markera register i denna lista.<br><i>Historik sparas alltid för valda register, och finns tillgängliga att visas i grafen nedan.<br>För att historiken ska sparas efter omstart behöver funktionen \"Spara grafer\" aktiveras under Inställingar</p>"
+            "SE":"<p><b>Datahantering</b></p><br><p>Alla valda register visas här under, inkl. nuvarande värde.<br>För att visa data i graf nedan, markera register i denna lista.<br><i>Historik sparas alltid för valda register, och finns tillgängliga att visas i grafen nedan.<br>För att historiken ska sparas efter omstart behöver funktionen \"Spara grafer\" aktiveras under Inställingar</p>",
+            "EN":"<p><b>Data management</b></p><br><p> All selected registers are shown below, including current value.<br>To view data in graph below, select registers in this list.<br><i>Historical values are plotted in the graph below.<br>The data can be saved permanently using the function \"Save graphics\" in the menu item \"Installation\".</p>",
+            "DE":"<p><b>Datenverwaltung</b></p><br><p>Alle ausgewählten Register werden unten angezeigt, einschließlich des aktuellen Werts.<br>Um Daten in der folgenden Grafik anzuzeigen, wählen Register in dieser Liste aus.<br><i>Der Verlauf wird immer für ausgewählte Register gezeichnet. Über Funktion \"Grafiken speichern\" im Menüpunkt \"Installation\" können die Daten dauerhaft gespeichert werden.</p>"
         },"remove_register": {
-            "SE":"<b>Ta bort register</b>"
+            "SE":"<b>Ta bort register</b>",
+            "EN":"<b>Delete register</b>",
+            "DE":"<b>Register löschen</b>"
         },"hw_auto_lux_info": {
-            "SE":"<p><b>Automatisk tillfällig lyx</b></p><br>Vid stort uttag av varmvatten så kan tillfällig lyx startas automatiskt.<br>Injustering sker nedan med två värden, det ena är differens som bestämmer hur mycket botten på varmvattentanken ska sjunka i temperatur innan funktionen aktiveras<br>Tidfaktor anger hur lång bak i tiden differensen ska gälla. Se exempel under grafen"
+            "SE":"<p><b>Automatisk tillfällig lyx</b></p><br>Vid stort uttag av varmvatten så kan tillfällig lyx startas automatiskt.<br>Injustering sker nedan med två värden, det ena är differens som bestämmer hur mycket botten på varmvattentanken ska sjunka i temperatur innan funktionen aktiveras<br>Tidfaktor anger hur lång bak i tiden differensen ska gälla. Se exempel under grafen",
+            "EN":"<p><b>Automatic temporary luxury</b></p><br>When a big amount of hot water is used, temporary luxury mode can be set automatically.<br>Adjustment is done below with two values, one is difference that determines how much the bottom of the hot water tank should drop in temperature before the function is activated <br> Time factor indicates how far back in time the difference should be considered. See example under the graph",
+            "DE":"<p><b>Automatischer temporärer Luxus</b></p><br>Bei Entnahme großer Mengen an Warmwasser, kann der temporäre Luxus-Modus automatisch gestartet werden.<br>Die Einstellung erfolgt unten mittels zwei Werten. Zum einen über die Differenz, die bestimmt, um wie viel die Temperatur am Bodens des Warmwasserspeichers sinken muss, bevor die Funktion aktiviert wird.<br>Zum Anderen über den Zeitfaktor, der angibt wie lange die Differenz zurück betrachtet werden soll. Siehe Beispiel unter der Grafik"
         },"hw_priority_info": {
-            "SE":"<p><b>Varmvatten prioritet</b></p><br>Om tappvarmvattnet (BT7) understiger den minsta inställda nivån så startar varmvattenproduktion direkt.<br><i>Denna funktion hjälper till att prioritera varmvattnet under vinterperioden där värmen ofta prioriteras</i>"
+            "SE":"<p><b>Varmvatten prioritet</b></p><br>Om tappvarmvattnet (BT7) understiger den minsta inställda nivån så startar varmvattenproduktion direkt.<br><i>Denna funktion hjälper till att prioritera varmvattnet under vinterperioden där värmen ofta prioriteras</i>",
+            "EN":"<p><b>Hot water priority</b></p><br>If the domestic hot water (BT7) is below the minimum set level, hot water production starts immediately.<br><i>This function helps to prioritize hot water during the winter period where heat is often prioritized</i>",
+            "DE":"<p><b>Warmwasser-Priorität</b></p><br>Wenn das Brauchwarmwasser (BT7) unter dem eingestellten Mindestniveau liegt, beginnt die Heißwasserproduktion sofort.<br><i>Diese Funktion hilft bei der Priorisierung von heißem Wasser während der Winterperiode, in der Wärme häufig priorisiert wird.</i>"
         },"hw_auto_lux_info2": {
-            "SE":"<i>Exempel för badkar<br>För att kalibrera in funktionen så ställ grafen att visa 1 timma, det ger en detaljerad graf.<br>Notera vad klockan är och börja tappa upp badkaret, fyll upp badkaret rejält och kolla grafen efteråt. Du kommer se en ljusblå linje som dyker ner mot en orange linje som också dyker. Detta är samma linje men den nedre linjen är förskjuten med tidfaktorn, och avståndet mellan linjerna i höjdled är differensen. Om linjerna möts kommer funktionen att triggas och en grön linje kommer visa sig, när den ljusblå linjen har överstigit denna så stängs funktionen av.<br>Om linjerna precis missar varandra under tappningen så behöver tidfaktorn justeras till ett högre värde, om den ljusblåa linjen aldrig når ner till den orangea så behöver differensen sänkas.<br>Om funktionen triggas för enklare saker som dusch eller diskning så ska man höja differensen lite.<br>OBS. Grundinställningarna är i många fall tillräckliga och kan endast behöva justeras lite i tid för att fånga upp trögheten i olika system</i>"
+            "SE":"<i>Exempel för badkar<br>För att kalibrera in funktionen så ställ grafen att visa 1 timma, det ger en detaljerad graf.<br>Notera vad klockan är och börja tappa upp badkaret, fyll upp badkaret rejält och kolla grafen efteråt. Du kommer se en ljusblå linje som dyker ner mot en orange linje som också dyker. Detta är samma linje men den nedre linjen är förskjuten med tidfaktorn, och avståndet mellan linjerna i höjdled är differensen. Om linjerna möts kommer funktionen att triggas och en grön linje kommer visa sig, när den ljusblå linjen har överstigit denna så stängs funktionen av.<br>Om linjerna precis missar varandra under tappningen så behöver tidfaktorn justeras till ett högre värde, om den ljusblåa linjen aldrig når ner till den orangea så behöver differensen sänkas.<br>Om funktionen triggas för enklare saker som dusch eller diskning så ska man höja differensen lite.<br>OBS. Grundinställningarna är i många fall tillräckliga och kan endast behöva justeras lite i tid för att fånga upp trögheten i olika system</i>",
+            "EN":"<i>Example for a bathtub<br>To calibrate the function, set the graph to show 1 hour, it gives a detailed graph.<br>Note what time it is and start filling the bathtub. Check the graph afterwards. You will see a light blue line that goes down to an orange line that is also falling. This is the same line but the bottom line is offset by the time factor, and the distance between the lines in height is the temperature difference. When both lines meet, the function will triggered and a green line will appear, when the light blue line has exceeded this green line, the function will be turned off.<br>If the lines miss each other during filling of the tub, the time factor needs to be adjusted to a higher value. If the light blue line never reaches the orange line, then the difference needs to be lowered.<br>If the function is triggered for smaller amounts of water, such as showering or washing dishes, you should increase the difference a little.<br>NOTE: The basic settings sufficient in most cases and may only need to be adjusted a little in time to catch up inertia in different systems</i>",
+            "DE":"<i>Beispiel für eine Badewanne <br> Um die Funktion zu kalibrieren, stelle das Diagramm so ein, dass 1 Stunde angezeigt wird. Es wird ein detailliertes Diagramm angezeigt.<br>Notiere die Uhrzeit und Beginne mit dem Füllen der Badewanne. Fülle die Badewanne komplett auf. Du siehst eine hellblaue Linie, die bis zu einer orangefarbenen Linie abfällt, welche ebenfalls einen abfallenden Verlauf hat. Dies ist dieselbe Linie, aber die untere Linie ist um den Zeitfaktor versetzt und der Abstand zwischen den Linien in der Höhe ist der Temperaturunterschied. Wenn sich die Linien treffen, wird die Funktion ausgelöst wird und eine grüne Linie erscheint. Wenn die hellblaue Linie diese überschritten hat, wird die Funktion ausgeschaltet.<br>Wenn sich die Linien beim Füllen der Wanne verfehlen, muss der Zeitfaktor auf einen höheren Wert eingestellt werden. Wenn die hellblaue Linie niemals die orangene erreicht, muss die Temperaturdifferenz verringert werden.<br> Wenn die Funktion für kleinere Wassermengen wie Duschen oder Geschirrspülen ausgelöst wird, sollte die Temperaturdifferenz ein Wenig erhöht werden.<br> HINWEIS: Die Grundeinstellungen sind in meißten Fällen ausreichend und müssen möglicherweise nur minimal angepasst werden, um die Trägheit unterschiedlicher Systeme zu kompensieren.</i>"
         },"hw_diff": {
-            "SE":"<b>Differens</b>"
+            "SE":"<b>Differens</b>",
+            "EN":"<b>Temperature difference</b>",
+            "DE":"<b>Temperaturunterschied</b>"
         },"hw_time": {
-            "SE":"<b>Tidfaktor</b>"
+            "SE":"<b>Tidfaktor</b>",
+            "EN":"<b>Time factor</b>",
+            "DE":"<b>Zeitfaktor</b>"
         },"result": {
-            "SE":"<b>Resultat</b>"
+            "SE":"<b>Resultat</b>",
+            "EN":"<b>Result</b>",
+            "DE":"<b>Ergebnis</b>"
         }
     }
 }
