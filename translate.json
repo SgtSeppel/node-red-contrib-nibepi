@@ -219,11 +219,11 @@
         },"indoor_info_s1": {
             "SE":"<p><b>Inomhusreglering S1</b></p><br>Inomhusreglering rekommenderas främst för högtempererade system (Radiatorer), det går att använda med lågtempererade system med mindre faktor<br><i>OBS golvvärme i betong anses väldigt trögt och en faktor över 2 är aldrig att rekommendera</i>",
             "EN":"<p><b>Indoor control S1</b></p><br>Indoor control is recommended for high temperature systems (radiators). With a lower factor, it can be used for low temperature systems.<br><i>Note: Floor heating in concrete is considered very inert and a factor above 2 is not recommended.</i>",
-            "DE":"<p><b>Innenraumsteuerung S1</b></p><br>Die Innentemperatur-Steuerung wird hauptsächlich für Hochtemperatursysteme (Heizkörper) empfohlen. Mit einem geringen Faktor, kann sie mit Niedertemperatursystemen verwendet werden.<br><i>Hinweis: Fußbodenheizungen in Estrich sind sehr träge Systeme und ein Faktor über 2 wird nicht empfohlen.</i>"
+            "DE":"<p><b>Innentemperatur-Regelung S1</b></p><br>Die Innentemperatur-Regelung wird hauptsächlich für Hochtemperatursysteme (Heizkörper) empfohlen. Mit einem geringen Faktor, kann sie mit Niedertemperatursystemen verwendet werden.<br><i>Hinweis: Fußbodenheizungen in Estrich sind sehr träge Systeme und ein Faktor über 2 wird nicht empfohlen.</i>"
         },"indoor_info_s2": {
             "SE":"<p><b>Inomhusreglering S2</b></p><br>Inomhusreglering rekommenderas främst för högtempererade system (Radiatorer), det går att använda med lågtempererade system med mindre faktor<br><i>OBS golvvärme i betong anses väldigt trögt och en faktor över 2 är aldrig att rekommendera</i>",
             "EN":"<p><b>Indoor temperature control S2</b></p><br>Indoor control is recommended for high temperature systems (radiators). With a lower factor, it can be used for low temperature systems.<br><i>Note: Floor heating in concrete is considered very inert and a factor above 2 is not recommended.</i>",
-            "DE":"<p><b>Innentemperatur-Steuerung S2</b></p><br>Die Innentemperatur-Regelung wird hauptsächlich für Hochtemperatursysteme (Heizkörper) empfohlen. Mit einem geringen Faktor, kann sie mit Niedertemperatursystemen verwendet werden.<br><i>Hinweis: Fußbodenheizungen in Estrich sind sehr träge Systeme und ein Faktor über 2 wird nicht empfohlen.</i>"
+            "DE":"<p><b>Innentemperatur-Regelung S2</b></p><br>Die Innentemperatur-Regelung wird hauptsächlich für Hochtemperatursysteme (Heizkörper) empfohlen. Mit einem geringen Faktor, kann sie mit Niedertemperatursystemen verwendet werden.<br><i>Hinweis: Fußbodenheizungen in Estrich sind sehr träge Systeme und ein Faktor über 2 wird nicht empfohlen.</i>"
         },"indoor_options_label": {
             "SE":"<b>Inomhusreglering</b>",
             "SE":"<b>Indoor temperature control</b>",
@@ -235,11 +235,11 @@
         },"indoor_options_nibe": {
             "SE":"Nibes Inomhusreglering",
             "EN":"Nibes Indoor temperature control",
-            "DE":"Nibes Innentemperatur-Steuerung"
+            "DE":"Nibes Innentemperatur-Regelung"
         },"indoor_options_nibepi": {
             "SE":"NibePis Inomhusreglering",
             "EN":"NibePis Indoor temperature control",
-            "DE":"NibePis Innentemperatur-Steuerung"
+            "DE":"NibePis Innentemperatur-Regelung"
         },"indoor_set": {
             "SE":"<b>Inomhus börvärde</b><br><i>Ställ rumsbörvärdet här. Samma värde visas/ändras i värmepumpen</i>",
             "SE":"<b>Indoor temperature set value</b><br><i>Set the room temperature set point here. The same value is shown/changed in the heatpump</i>",
@@ -297,100 +297,189 @@
             "EN":"<b>Degree minute reset</b><br><i>When the indoor temperature set point is reached, the degree minutes will be reset to the start value.<br>Define at which temperature above the set point this should happen.</i>",
             "DE":"<b>Gradminuten reset</b><br><i>Bei Erreichen der Innenraum-Solltemperatur werden die Gradminuten auf den Anfangswert zurückgesetzt.<br>Stelle ein, bei wieviel Grad über dem Sollwert das passieren soll.</i>"
         },"dm_reset_enable_stop": {
-            "SE":"<b>Stoppa värmeproduktion</b><br><i>När inomhusbörvärdet är uppnått så återställs gradminuter till 100 och värmepumpen stannar<br>Ställ in hur många grader över inomhusbörvärdet det ska aktiveras vid</i>",
-            "SE":"<b>Stoppa värmeproduktion</b><br><i>När inomhusbörvärdet är uppnått så återställs gradminuter till 100 och värmepumpen stannar<br>Ställ in hur många grader över inomhusbörvärdet det ska aktiveras vid</i>",
-            "SE":"<b>Stoppa värmeproduktion</b><br><i>När inomhusbörvärdet är uppnått så återställs gradminuter till 100 och värmepumpen stannar<br>Ställ in hur många grader över inomhusbörvärdet det ska aktiveras vid</i>"
+            "SE":"<b>Gradminut återställning</b><br><i>När inomhusbörvärdet är uppnått så återställs gradminuter till startvärdet<br>Ställ in hur många grader över inomhusbörvärdet det ska aktiveras vid</i>",
+            "EN":"<b>Stop heat production</b><br><i>When the indoor temperature set point is reached, the degree minutes will be reset to the start value.<br>Define at which temperature above the set point this should happen.</i>",
+            "DE":"<b>Wärmeerzeugung stoppen</b><br><i>Bei Erreichen der Innenraum-Solltemperatur werden die Gradminuten auf den Anfangswert zurückgesetzt.<br>Stelle ein, bei wieviel Grad über dem Sollwert das passieren soll.</i>"
         },"diff": {
-            "SE":"<p><b>Differens</b></p>"
+            "SE":"<p><b>Differens</b></p>",
+            "EN":"<p><b>Difference</b></p>",
+            "DE":"<p><b>Differenz</b></p>"
         },"co2_limit": {
-            "SE":"<b>Gränsvärde CO2</b>"
+            "SE":"<b>Gränsvärde CO2</b>",
+            "EN":"<b>CO2 limit</b>",
+            "DE":"<b>CO2 Grenzwert</b>"
         },"airflow": {
-            "SE":"<b>Luftflöde</b>"
+            "SE":"<b>Luftflöde</b>",
+            "EN":"<b>Airflow</b>",
+            "DE":"<b>Luftstrom</b>"
         },"low_cpr_freq": {
-            "SE":"<b>Kompressorfrekvens</b>"
+            "SE":"<b>Kompressorfrekvens</b>",
+            "EN":"<b>Compressor frequency</b>",
+            "DE":"<b>Kompressorfrequenz</b>"
         },"enable_co2": {
-            "SE":"<b>Aktivera CO2 givare</b>"
+            "SE":"<b>Aktivera CO2 givare</b>",
+            "EN":"<b>Activate CO2 sensor</b>",
+            "DE":"<b>CO2 Sensor aktivieren</b>"
         },"filter_value": {
-            "SE":"<b>Kalibrera</b>"
+            "SE":"<b>Kalibrera</b>",
+            "EN":"<b>Calibrate</b>",
+            "DE":"<b>Kalibrieren</b>"
         },"fan_efficiency": {
-            "SE":"<b>Effektivitet</b>"
+            "SE":"<b>Effektivitet</b>",
+            "SE":"<b>Efficiency</b>",
+            "SE":"<b>Effizienz</b>"
         },"fan_low_info": {
-            "SE":"<p><b>Sänk luftflöde</b></p><br>Sänk luftflödet vid låg kompressorfrekvens<br><i>Ange under vilken kompressorfrekvens det aktiveras, samt vilket luftflöde som ska hållas, om CO2 givare är aktiverad välj ett värde som nivån måste understiga"
+            "SE":"<p><b>Sänk luftflöde</b></p><br>Sänk luftflödet vid låg kompressorfrekvens<br><i>Ange under vilken kompressorfrekvens det aktiveras, samt vilket luftflöde som ska hållas, om CO2 givare är aktiverad välj ett värde som nivån måste understiga",
+            "EN":"<p><b>Reduce airflow</b></p><br> Decrease airflow at low compressor frequencies <br> <i> Specify below which compressor frequency it is activated, and which airflow to maintain, if CO2 sensor is activated select a value that the level must be below",
+            "DE":"<p><b>Luftstrom reduzieren</ b></p><br> Luftstrom bei niedriger Kompressorfrequenz verringern <br> <i> Gib an, unter welcher Kompressorfrequenz die Funktion aktiviert ist und welcher Luftstrom beibehalten werden soll, wenn CO2-Sensor aktiviert ist Wählen Sie einen Wert, unter dem der Füllstand liegen muss. "
         },"fan_co2_force_info": {
-            "SE":"<p><b>CO2 Forcering av luftflöde</b></p><br>Vid högt CO2 värde kan ventilationen forceras, ange vilket värde som ska överstigas och vilket luftflöde som ska hållas"
+            "SE":"<p><b>CO2 Forcering av luftflöde</b></p><br>Vid högt CO2 värde kan ventilationen forceras, ange vilket värde som ska överstigas och vilket luftflöde som ska hållas",
+            "EN":"<p><b>CO2 Force airflow</b></p><br>At high CO2 levels, ventilation can be forced. Specify which value is to be exceeded and which airflow is to be maintained",
+            "DE":"<p><b>CO2 Luftstrom erzwingen</b></p><br>Bei hohem CO2-Wert kann die Belüftung erzwungen werden. Gib an, welcher Wert überschritten werden muss und welcher Luftstrom aufrecht erhalten werden soll."
         },"fan_filter_info": {
-            "SE":"<p><b>Filterövervakning</b></p><br>Aktivera övervakning av filter, vid rengöring av filter behöver anläggningen kalibreras första gången<br><i>Under uppbyggnad...</i>"
+            "SE":"<p><b>Filterövervakning</b></p><br>Aktivera övervakning av filter, vid rengöring av filter behöver anläggningen kalibreras första gången<br><i>Under uppbyggnad...</i>",
+            "SE":"<p><b>Filter monitoring</b></p><br>Activate filter monitoring. When you clean the filter, the system has to be re-calibrated.<br><i>Under development ...</i>",
+            "SE":"<p><b>Filterüberwachung</b></p><br>Aktivierung der Filterüberwachung. Wenn du den Filter reinigst, muss das System neu kalibriert werden.<br><i>In Entwicklung ...</i>"
         },"fan_degree_info": {
-            "SE":"<p><b>Forcering vid låga gradminuter</b></p><br>För att öka effektiviteten på kompressorn så kan luftflödet öka när gradminuterna börjar närma sig start för tillsats."
+            "SE":"<p><b>Forcering vid låga gradminuter</b></p><br>För att öka effektiviteten på kompressorn så kan luftflödet öka när gradminuterna börjar närma sig start för tillsats.",
+            "EN":"<p><b>Forcing at low degree minutes</b></p><br>To increase efficiency of the compressor, the airflow can be increased when the degree minutes start reaching positive values.",
+            "DE":"<p><b>Erzwingen bei niedrigen Gradminuten</b></p><br>Um die Effizienz des Kompressors zu erhöhen, kann der Luftstrom angehoben werden, wenn die Gradminuten positive Werte erreichen."
         },"fan_sensor_label": {
-            "SE":"<b>Välj CO2 givare</b>"
+            "SE":"<b>Välj CO2 givare</b>",
+            "EN":"<b>Select CO2 sensor</b>",
+            "DE":"<b>CO2 sensor auswählen</b>"
         },"fan_last_cal": {
-            "SE":"<b>Senaste kalibrering</b>"
+            "SE":"<b>Senaste kalibrering</b>",
+            "EN":"<b>Last calibration</b>",
+            "DE":"<b>Letzte Kalibrierung</b>"
         },"fan_info": {
-            "SE":"<p><b>Automatiskt luftflöde</b></p><br>Justerar automatiskt fläkthastigheten och kompenserar för smutsigt filter eller andra tillfälliga variationer i luftflödet.<br><i>OBS. Ingen justering utförs under avfrostning/forcering/låg förångartemperatur. Detta för att undvika ökning av luftflödet medans påisning pågår"
+            "SE":"<p><b>Automatiskt luftflöde</b></p><br>Justerar automatiskt fläkthastigheten och kompenserar för smutsigt filter eller andra tillfälliga variationer i luftflödet.<br><i>OBS. Ingen justering utförs under avfrostning/forcering/låg förångartemperatur. Detta för att undvika ökning av luftflödet medans påisning pågår",
+            "EN":"<p><b>Automatic airflow</b></p><br>Automatically adjusts the fan speed and compensates for dirty filters or other temporary variations in the airflow.<br><i>NOTE: No adjustment is made during defrosting/forcing/low evaporator temperature. This is to avoid increasing the air flow while icing is in progress",
+            "DE":"<p><b>Automatischer Luftstrom </b></p><br> Passt die Lüfterdrehzahl automatisch an und gleicht verschmutzte Filter oder andere vorübergehende Schwankungen des Luftstroms aus. <br><i>HINWEIS: Es wird keine Einstellung vorgenommen während des Abtauens/Forcierens/niedriger Verdampfertemperatur. Dies soll verhindern, dass der Luftstrom während der Vereisung erhöht wird."
         },"fan_size": {
-            "SE":"<b>Rekommenderat luftflöde</b><br><i>Det minsta rekommenderade flödet enligt angiven yta</i>"
+            "SE":"<b>Rekommenderat luftflöde</b><br><i>Det minsta rekommenderade flödet enligt angiven yta</i>",
+            "EN":"<b>Recommended airflow</b><br><i>The recommended minimum airflow for the given area. </i>",
+            "DE":"<b>Empfohlener Luftstrom</b><br><i>Der empfohlene Mindestluftstrom für den angegeben Bereich. </i>"
         },"log_enable": {
-            "SE":"<b>Loggning på</b><br><i>Aktiverar loggning, OBS loggning sparas endast i arbetsminnet</i>"
+            "SE":"<b>Loggning på</b><br><i>Aktiverar loggning, OBS loggning sparas endast i arbetsminnet</i>",
+            "EN":"<b>Activate logging</b><br><i>Activates the logging. Note: Logs are only stored in RAM</i>",
+            "DE":"<b>Protokollierung aktivieren</b><br><i>Aktiviert die Protokollierung. Hinweis: Logdateien werden nur im Arbeitsspeicher abgelegt.</i>",
         },"log_info": {
-            "SE":"<b>INFO</b>"
+            "SE":"<b>INFO</b>",
+            "EN":"<b>INFO</b>",
+            "DE":"<b>INFO</b>"
         },"log_error": {
-            "SE":"<b>ERROR</b>"
+            "SE":"<b>ERROR</b>",
+            "EN":"<b>ERROR</b>",
+            "DE":"<b>ERROR</b>"
         },"log_debug": {
-            "SE":"<b>DEBUG</b>"
+            "SE":"<b>DEBUG</b>",
+            "EN":"<b>DEBUG</b>",
+            "DE":"<b>DEBUG</b>"
         },"log_core": {
-            "SE":"<b>CORE</b>"
+            "SE":"<b>CORE</b>",
+            "EN":"<b>CORE</b>",
+            "DE":"<b>CORE</b>"
         },"log_fan": {
-            "SE":"<b>Automatiskt Luftflöde</b>"
+            "SE":"<b>Automatiskt Luftflöde</b>",
+            "EN":"<b>Automatic airflow</b>",
+            "DE":"<b>Automatischer Luftstrom</b>"
         },"log_diag": {
-            "SE":"<b>Diagnostik</b>"
+            "SE":"<b>Diagnostik</b>",
+            "EN":"<b>Diagnostics</b>",
+            "DE":"<b>Diagnostik</b>"
         },"log_weather": {
-            "SE":"<b>Prognosreglering</b>"
+            "SE":"<b>Prognosreglering</b>",
+            "EN":"<b>Forecast control</b>",
+            "DE":"<b>Prognoseregelung</b>"
         },"price_very_high": {
-            "SE":"<b>Väldigt högt pris</b>"
+            "SE":"<b>Väldigt högt pris</b>",
+            "EN":"<b>Very high price</b>",
+            "DE":"<b>Sehr hoher Preis</b>"
         },"price_high": {
-            "SE":"<b>Högt pris</b>"
+            "SE":"<b>Högt pris</b>",
+            "EN":"<b>High price</b>",
+            "DE":"<b>Hoher Preis</b>"
         },"price_normal": {
-            "SE":"<b>Normalt pris</b>"
+            "SE":"<b>Normalt pris</b>",
+            "EN":"<b>Normal price</b>",
+            "DE":"<b>Normaler Preis</b>"
         },"price_low": {
-            "SE":"<b>Lågt pris</b>"
+            "SE":"<b>Lågt pris</b>",
+            "EN":"<b>Low price</b>",
+            "DE":"<b>Niedriger Preis</b>",
         },"price_very_low": {
-            "SE":"<b>Väldigt lågt pris</b>"
+            "SE":"<b>Väldigt lågt pris</b>",
+            "EN":"<b>Very low price</b>",
+            "DE":"<b>Sehr niedriger Preis</b>"
         },"price_nibe_label": {
-            "SE":"<b>Nibes Elprisreglering</b><br><i>För att kunna använda sig av Nibe Uplinks elprisnivåer behöver det aktiveras i värmepumpen först</i>"
+            "SE":"<b>Nibes Elprisreglering</b><br><i>För att kunna använda sig av Nibe Uplinks elprisnivåer behöver det aktiveras i värmepumpen först</i>",
+            "EN":"<b>Nibe electricity price adaption</b><br><i>To be able to use the electricity price adaption, it has to be activated in the heatpump first.</i>",
+            "DE":"<b>Nibe Strompreisregelung</b><br><i>Um die Strompreisregelung zu verwenden, muss sie erst in der Wärmepumpe eingeschaltet werden.</i>"
         },"price_nibepi_label": {
-            "SE":"<b>NibePis Elprisreglering</b><br><i>Aktiverar NibePis elprisreglering och alla parametrar ställs in här</i>"
+            "SE":"<b>NibePis Elprisreglering</b><br><i>Aktiverar NibePis elprisreglering och alla parametrar ställs in här</i>", 
+            "EN":"<b>NibePi electricity price adaption</b><br><i>Activates NibePis electricity price adaption and all parameters will be managed here then.</i>",
+            "DE":"<b>NibePis Strompreisregelung</b><br><i>Aktiviert NibePi's Strompreisregelung und alle Parameter werden dann hier eingestellt.</i>"
         },"economy": {
-            "SE":"Ekonomi"
+            "SE":"Ekonomi",
+            "EN":"Economy",
+            "DE":"Sparmodus"
         },"normal": {
-            "SE":"Normal"
+            "SE":"Normal",
+            "EN":"Normal",
+            "DE":"Normal"
         },"luxury": {
-            "SE":"Lyx"
+            "SE":"Lyx",
+            "EN":"Luxury",
+            "DE":"Luxus"
         },"tooltip": {
             "SE":"Välj",
-            "EN":"Select"
+            "EN":"Select",
+            "DE":"Auswählen"
         },"price_info": {
-            "SE":"<p><b>Information</b></p><br>NibePi kan reglera efter elprisnivån. Uppgifter kan hämtas från antingen Nibe Uplink eller Tibber.<br>För att säkerställa komfort tas alltid inomhustemperaturen i beaktning vid reglering"
+            "SE":"<p><b>Information</b></p><br>NibePi kan reglera efter elprisnivån. Uppgifter kan hämtas från antingen Nibe Uplink eller Tibber.<br>För att säkerställa komfort tas alltid inomhustemperaturen i beaktning vid reglering",
+            "EN":"<p><b>Information</b></p><br>NibePi can control the heat production based on electricity price. Energy prices come either from NibeUplink or Tibber.<br>To guarantee comfort, room temperature is always taken into account.",
+            "DE":"<p><b>Information</b></p><br>NibePi kann die Wärmeerzeugung nach dem aktuellen Strompreis regeln. Die Strompreise werden von NibeUplink oder Tibber bezogen.<br>Um den Komfort zu erhalten, wird die aktuelle Raumtemperatur mit in Betracht gezogen."
         },"price_now": {
-            "SE":"<b>Nuvarande Elpris</b>"
+            "SE":"<b>Nuvarande Elpris</b>",
+            "EN":"<b>Current electricity price</b>",
+            "DE":"<b>Aktueller Strompreis</b>"
         },"price_now_level": {
-            "SE":"<b>Nuvarande Elprisnivå</b>"
+            "SE":"<b>Nuvarande Elprisnivå</b>",
+            "EN":"<b>Current electricity price level</b>",
+            "DE":"<b>Aktuelles Strompreisniveau</b>"
         },"unknown": {
-            "SE":"<b>Okänt</b>"
+            "SE":"<b>Okänt</b>",
+            "EN":"<b>Unknown</b>",
+            "DE":"<b>Unbekannt</b>"
         },"currency": {
-            "SE":"öre"
+            "SE":"öre",
+            "EN":"öre",
+            "DE":"öre"
         },"price_hw_settings": {
-            "SE":"<p><b>Inställningar för varmvatten</b></p><br>Välj vilken varmvatten inställning det ska vara vid olika elprisnivåer"
+            "SE":"<p><b>Inställningar för varmvatten</b></p><br>Välj vilken varmvatten inställning det ska vara vid olika elprisnivåer",
+            "EN":"<p><b>Hot water settings</b></p><br>Select hot water settings for different electricity price levels.",
+            "DE":"<p><b>Wamrwassereinstellungen</b></p><br>Wähle die Wamrwassereinstellungen für die unterschiedlichen Strompreisniveaus."
         },"price_settings": {
-            "SE":"<p><b>Inställningar</b></p><br>Välj vilken reglering som ska gälla. Med styrning av NibePi så välj datakälla. För integrering mot Tibber, använd din personliga token som finns att hämta från https://developer.tibber.com/"
+            "SE":"<p><b>Inställningar</b></p><br>Välj vilken reglering som ska gälla. Med styrning av NibePi så välj datakälla. För integrering mot Tibber, använd din personliga token som finns att hämta från https://developer.tibber.com/",
+            "EN":"<p><b>Settings</b></p><br>Select, which control mechanism should be used. With NibePi control, selec the data source. For integration with Tibber, please use your personal acces token, which can be obtained from  https://developer.tibber.com/",
+            "DE":"<p><b>Einstellungen</b></p><br>Wähle aus, welcher Regelmechanismus verwendet werden soll. Für NibePi Regeleung, bitte die Datenquelle wählen. Für die Verwendung von Tibber muss ein persönliches Acces-Token verwendet werden. Dieses kist hier erhältlich: https://developer.tibber.com/"
         },"price_enable_hw": {
-            "SE":"<b>Aktivera varmvattenreglering</b>"
+            "SE":"<b>Aktivera varmvattenreglering</b>",
+            "EN":"<b>Enable hot water control</b>",
+            "DE":"<b>Warmwasserregelung aktivieren</b>"
         },"price_smart1_info": {
-            "SE":"<i>OBS. För att kunna använda prisnivåer från Nibe Uplink måste Nibes SmartPrice vara aktiverat i värmepumpen manuellt under meny 4.1.6 Smart Price Adaption.<br>Alla åtgärder ska däremot nollställas för att NibePi ska kunna styra.</i>"
+            "SE":"<i>OBS. För att kunna använda prisnivåer från Nibe Uplink måste Nibes SmartPrice vara aktiverat i värmepumpen manuellt under meny 4.1.6 Smart Price Adaption.<br>Alla åtgärder ska däremot nollställas för att NibePi ska kunna styra.</i>",
+            "EN":"<i>Note: To be able to use price levels from NibeUplink, SmartPrice needs to be enabled in the heatpump from menu 4.1.6 Smart Price Adaption.<br>All settings need to be reset to default for NibePi to be able to control the system.</i>",
+            "DE":"<i>Hinweis: Um die Preisniveaus von NibeUplink zu verwenden, muss SmartPrice im Menü 4.1.6 Smart Price Adaption der Wärmepumpe aktiviert werden.<br>Alle Einstellungen müssen jedoch auf Standardwerte zurückgesetzt werden, damit NibePi das System steuern kann.</i>"
         },"price_sensor_info": {
-            "SE":"Begränsa elprisregleringens påverkan med hjälp av en rumsgivare.<br>Ställ in en differens för den lägsta temperaturen som tillåts vid högt elpris för reglering mot ditt rumsbörvärde."
+            "SE":"Begränsa elprisregleringens påverkan med hjälp av en rumsgivare.<br>Ställ in en differens för den lägsta temperaturen som tillåts vid högt elpris för reglering mot ditt rumsbörvärde.",
+            "EN":"Limit the influence of the price adaption by means of a room temperature sensor.<br>Set the lowest temperature allowed at high electricity prices.",
+            "DE":"Begrenzung der Auswirkung des Strompreises<br>Definiere eine Temperaturdifferenz die auch bei hohem Strompreis nicht unterschritten werden darf."
         },"price_s1_info": {
-            "SE":"<p><b>Elprisreglering S1</b></p><br>Välj hur mycket kurvjusteringen ska justeras vid olika prisnivåer.<br>Reglering mot rumsgivare rekommenderas starkt, ibland förekommer det längre perioder av samma låga eller höga pris"
+            "SE":"<p><b>Elprisreglering S1</b></p><br>Välj hur mycket kurvjusteringen ska justeras vid olika prisnivåer.<br>Reglering mot rumsgivare rekommenderas starkt, ibland förekommer det längre perioder av samma låga eller höga pris",
+            "EN":"<p><b>Electricity price adaption S1</b></p><br>Select the curve adaption for different price levels.<br>Regulation against room temperature sensors is strongly recommended since there might be longer periods of high prices.",
+            "DE":"<p><b>Strompreisregelung S1</b></p><br>Stelle die Kurvenanpassung für die unterschiedlichen Strompreisniveaus ein.<br>Regelung gegen einen Temperatursensor wird strengstens empfohlen, da es durchaus lange Phasen mit hohen Strompreisen geben kann."
         },"price_s2_info": {
             "SE":"<p><b>Elprisreglering S2</b></p><br>Välj hur mycket kurvjusteringen ska justeras vid olika prisnivåer.<br>Reglering mot rumsgivare rekommenderas starkt, ibland förekommer det längre perioder av samma låga eller höga pris"
         },"indoor_sensor": {
