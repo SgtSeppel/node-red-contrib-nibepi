@@ -101,8 +101,8 @@
             "EN":"<p><b>Triggers a shutdown of the NibePi hardware.</b></p>",
             "DE":"<p><b>Herunterfahren der NibePi Hardware auslösen.</b></p>"
         },"mqtt_info": {
-            "SE":"<p><b>MQTT</b></p><br>Aktivera åtkomst till MQTT broker.<br>NibePi har en inbyggd broker på 127.0.0.1:1883<br>Välj annars en extern broker.<br>Aktivera HA Discovery om Home Assistant automatiskt ska upptäcka aktiverade givare från NibePi",
-            "EN":"<p><b>MQTT</b></p><br>Activate the MQTT broker.<br>NibePi has an internal MQTT broker that runs on 127.0.0.1:1883<br>If deactivated, you can use an external broker.<br>Activate HA auto discovery, if HomeAssistant should detect NibePi's sensor automatically.",
+            "SE":"<p><b>MQTT</b></p><br>Aktivera åtkomst till MQTT broker.<br>NibePi har en inbyggd broker på 127.0.0.1:1883<br>Det går även att använda en extern broker, ändra bara anslutningsdetaljerna. <br>Aktivera HA Discovery om Home Assistant automatiskt ska upptäcka aktiverade givare från NibePi",
+            "EN":"<p><b>MQTT</b></p><br>Activate the MQTT broker.<br>NibePi has an internal MQTT broker that runs on 127.0.0.1:1883, You can also use an external broker just by changing the connection details. Activate HA auto discovery, if Home Assistant should detect NibePi's sensors automatically.",
             "DE":"<p><b>MQTT</b></p><br>Aktiviert den MQTT broker.<br>NibePi hat einen internen MQTT Broker, der auf 127.0.0.1:1883 läuft.<br>Wenn deaktiviert, kann hier ein externer Broker angegeben werden.<br>Aktiviere HA Auto Discovery, wenn HomeAssistant die NibePi Sensoren automatisch erkennen soll."
         },"lat": {
             "SE":"<b>Latitud</b>",
