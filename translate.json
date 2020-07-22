@@ -134,7 +134,7 @@
             "DE":"<p><b>Zusätzliche Sensoren</b></p><br>Hier kannst du zusätzliche Sensoren hinzufügen, die in den verschiedenen Funktionen genutzt werden können.<br>Du kannst einen Sensor entweder über ein Modbus Register hinzufügen oder über ein MQTT Topic."
         },"sensor_timeout": {
             "SE":"<b>Timeout tid för MQTT givare</b><br><i>Givaren måste uppdateras inom detta interval annars ignoreras den. OBS \"0\" inaktiverar timeout.</i>",
-            "EN":"<b>Timeout for MQTT sensors.</b><br><i>The sensor values must be updated whithin this time, otherwise they are ignored. Note: \"0\" deactivates the timeout.</i>",
+            "EN":"<b>Timeout for MQTT sensors.</b><br><i>The sensor values must be updated within this time, otherwise they are ignored. Note: \"0\" deactivates the timeout.</i>",
             "DE":"<b>Timeout für MQTT Sensoren.</b><br><i>Sensorwerte müssen innerhalb dieser Zeit aktualisiert werden, ansonsten werden sie ignoriert. Hinweis: \"0\" deaktiviert den Timeout.</i>"
         },"extra_sensor_remove": {
             "SE":"<b>Ta bort</b><br><i>Ta bort en extra givare genom att markera den i listan</i>",
@@ -154,7 +154,7 @@
             "DE":"<p><b>Prognoseregelung Klimasystem 2</b></p><br><i>Regelt die Wärmeerzeugung auf Basis der Temperaturvorhersage.<br>Empfohlen für Fußbodenheizungen.</i>"
         },"forecast_update_info": {
             "SE":"<i>Begär ny väderdata och uppdatera grafen med nya värden.</i>",
-            "EN":"<i>Fetch new weather data and update graph with new values.</i>",
+            "EN":"<i>Fetch new weather data and update the graph with new values.</i>",
             "DE":"<i>Neue Wetterdaten anfordern und Diagramm mit neuen Werten aktualisieren.</i>",
         },"forecast_sensor_s1": {
             "SE":"<b>Välj inomhusgivare S1</b>",
@@ -170,7 +170,7 @@
             "DE":"<b>Vorhersagezeit</b>"
         },"forecast_correction": {
             "SE":"<p><b>Inställningar</b></p><br>Prognoskorrigering jämför nuvarande utomhustemperatur mot nuvarande prognostemperatur.<br>Samma avvikelse appliceras även på framtida prognostemperatur.",
-            "EN":"<p><b>Settings</b></p><br>Forecast correction compares the current outdoor temperature to the current forecast temperature. The same deviation is then also applied to future forecast temperatures.<br>Samma avvikelse appliceras även på framtida prognostemperatur.",
+            "EN":"<p><b>Settings</b></p><br>Forecast correction compares the current outdoor temperature to the current forecast temperature. The same deviation is then also applied to future forecast temperatures.",
             "DE":"<p><b>Einstellungen</b></p><br>Die Progrnosekorrektur vergleicht die aktuelle Außentemperatur mit der aktuellen Prognosetemperatur.<br>Die gleiche Abweichung wird auch auf zukünftige, prognostierte Temperaturen angewendet."
         },"forecast_adjust": {
             "SE":"<b>Aktivera Prognoskorrigering</b>",
@@ -242,11 +242,11 @@
             "DE":"NibePis Innentemperatur-Regelung"
         },"indoor_set": {
             "SE":"<b>Inomhus börvärde</b><br><i>Ställ rumsbörvärdet här. Samma värde visas/ändras i värmepumpen</i>",
-            "SE":"<b>Indoor temperature set value</b><br><i>Set the room temperature set point here. The same value is shown/changed in the heatpump</i>",
+            "SE":"<b>Indoor temperature set value</b><br><i>Set the room temperature setpoint here. The same value is shown/changed in the heatpump</i>",
             "SE":"<b>Raumtemperatur Sollwert</b><br><i>Stelle hier den Sollwert für die Raumtemperatur ein. Der selbe Wert wird in der Wärmepumpe angezeigt/geändert</i>"
         },"indoor_diff": {
             "SE":"<b>Avvikelse</b><br><i>Ungefärlig uträkning för hur mycket temperaturen avviker från börvärdet.</i>",
-            "SE":"<b>Deviation</b><br><i>Approximate calculation of how much the room temperature deviates from the set point.</i>",
+            "SE":"<b>Deviation</b><br><i>Approximate calculation of how much the room temperature deviates from the setpoint.</i>",
             "SE":"<b>Regelabweichung</b><br><i>Ungefähre Berechnung, um wie viel die Raumtemperatur vom Sollwert abweicht.</i>"
         },"indoor_temp": {
             "SE":"<b>Inomhustemperatur</b>",
@@ -294,11 +294,11 @@
             "DE":"<p><b>Daten</b></p>"
         },"dm_reset_enable": {
             "SE":"<b>Gradminut återställning</b><br><i>När inomhusbörvärdet är uppnått så återställs gradminuter till startvärdet<br>Ställ in hur många grader över inomhusbörvärdet det ska aktiveras vid</i>",
-            "EN":"<b>Degree minute reset</b><br><i>When the indoor temperature set point is reached, the degree minutes will be reset to the start value.<br>Define at which temperature above the set point this should happen.</i>",
+            "EN":"<b>Degree minute reset</b><br><i>When the indoor temperature setpoint is reached, the degree minutes will be reset to the start value.<br>Define at which temperature above the setpoint this should happen.</i>",
             "DE":"<b>Gradminuten reset</b><br><i>Bei Erreichen der Innenraum-Solltemperatur werden die Gradminuten auf den Anfangswert zurückgesetzt.<br>Stelle ein, bei wieviel Grad über dem Sollwert das passieren soll.</i>"
         },"dm_reset_enable_stop": {
             "SE":"<b>Gradminut återställning</b><br><i>När inomhusbörvärdet är uppnått så återställs gradminuter till startvärdet<br>Ställ in hur många grader över inomhusbörvärdet det ska aktiveras vid</i>",
-            "EN":"<b>Stop heat production</b><br><i>When the indoor temperature set point is reached, the degree minutes will be reset to the start value.<br>Define at which temperature above the set point this should happen.</i>",
+            "EN":"<b>Stop heat production</b><br><i>When the indoor temperature set point is reached, the degree minutes will be reset to the start value.<br>Define at which temperature above the setpoint this should happen.</i>",
             "DE":"<b>Wärmeerzeugung stoppen</b><br><i>Bei Erreichen der Innenraum-Solltemperatur werden die Gradminuten auf den Anfangswert zurückgesetzt.<br>Stelle ein, bei wieviel Grad über dem Sollwert das passieren soll.</i>"
         },"diff": {
             "SE":"<p><b>Differens</b></p>",
@@ -342,7 +342,7 @@
             "SE":"<p><b>Filterüberwachung</b></p><br>Aktivierung der Filterüberwachung. Wenn du den Filter reinigst, muss das System neu kalibriert werden.<br><i>In Entwicklung ...</i>"
         },"fan_degree_info": {
             "SE":"<p><b>Forcering vid låga gradminuter</b></p><br>För att öka effektiviteten på kompressorn så kan luftflödet öka när gradminuterna börjar närma sig start för tillsats.",
-            "EN":"<p><b>Forcing at low degree minutes</b></p><br>To increase efficiency of the compressor, the airflow can be increased when the degree minutes start reaching positive values.",
+            "EN":"<p><b>Force airflow at low degree minutes</b></p><br>To increase efficiency of the compressor, the airflow can be increased when the degree minutes start reaching the start value for additional heating, thus preventing that.",
             "DE":"<p><b>Erzwingen bei niedrigen Gradminuten</b></p><br>Um die Effizienz des Kompressors zu erhöhen, kann der Luftstrom angehoben werden, wenn die Gradminuten positive Werte erreichen."
         },"fan_sensor_label": {
             "SE":"<b>Välj CO2 givare</b>",
@@ -354,7 +354,7 @@
             "DE":"<b>Letzte Kalibrierung</b>"
         },"fan_info": {
             "SE":"<p><b>Automatiskt luftflöde</b></p><br>Justerar automatiskt fläkthastigheten och kompenserar för smutsigt filter eller andra tillfälliga variationer i luftflödet.<br><i>OBS. Ingen justering utförs under avfrostning/forcering/låg förångartemperatur. Detta för att undvika ökning av luftflödet medans påisning pågår",
-            "EN":"<p><b>Automatic airflow</b></p><br>Automatically adjusts the fan speed and compensates for dirty filters or other temporary variations in the airflow.<br><i>NOTE: No adjustment is made during defrosting/forcing/low evaporator temperature. This is to avoid increasing the air flow while icing is in progress",
+            "EN":"<p><b>Automatic airflow</b></p><br>Automatically adjusts the fan speed and compensates for dirty filters or other temporary variations in the airflow.<br><i>NOTE: No adjustment is made during defrosting/forcing/low evaporator temperature. This is to avoid increasing the airflow while icing is in progress",
             "DE":"<p><b>Automatischer Luftstrom </b></p><br> Passt die Lüfterdrehzahl automatisch an und gleicht verschmutzte Filter oder andere vorübergehende Schwankungen des Luftstroms aus. <br><i>HINWEIS: Es wird keine Einstellung vorgenommen während des Abtauens/Forcierens/niedriger Verdampfertemperatur. Dies soll verhindern, dass der Luftstrom während der Vereisung erhöht wird."
         },"fan_size": {
             "SE":"<b>Rekommenderat luftflöde</b><br><i>Det minsta rekommenderade flödet enligt angiven yta</i>",
@@ -418,7 +418,7 @@
             "DE":"<b>Nibe Strompreisregelung</b><br><i>Um die Strompreisregelung zu verwenden, muss sie erst in der Wärmepumpe eingeschaltet werden.</i>"
         },"price_nibepi_label": {
             "SE":"<b>NibePis Elprisreglering</b><br><i>Aktiverar NibePis elprisreglering och alla parametrar ställs in här</i>", 
-            "EN":"<b>NibePi electricity price adaption</b><br><i>Activates NibePis electricity price adaption and all parameters will be managed here then.</i>",
+            "EN":"<b>NibePi electricity price adaption</b><br><i>Activates NibePis electricity price adaption and all parameters will be managed from here.</i>",
             "DE":"<b>NibePis Strompreisregelung</b><br><i>Aktiviert NibePi's Strompreisregelung und alle Parameter werden dann hier eingestellt.</i>"
         },"economy": {
             "SE":"Ekonomi",
@@ -462,7 +462,7 @@
             "DE":"<p><b>Wamrwassereinstellungen</b></p><br>Wähle die Wamrwassereinstellungen für die unterschiedlichen Strompreisniveaus."
         },"price_settings": {
             "SE":"<p><b>Inställningar</b></p><br>Välj vilken reglering som ska gälla. Med styrning av NibePi så välj datakälla. För integrering mot Tibber, använd din personliga token som finns att hämta från https://developer.tibber.com/",
-            "EN":"<p><b>Settings</b></p><br>Select, which control mechanism should be used. With NibePi control, selec the data source. For integration with Tibber, please use your personal acces token, which can be obtained from  https://developer.tibber.com/",
+            "EN":"<p><b>Settings</b></p><br>Select, which control mechanism should be used. With NibePi control, select the data source. For integration with Tibber, please use your personal access token, which can be obtained from  https://developer.tibber.com/",
             "DE":"<p><b>Einstellungen</b></p><br>Wähle aus, welcher Regelmechanismus verwendet werden soll. Für NibePi Regeleung, bitte die Datenquelle wählen. Für die Verwendung von Tibber muss ein persönliches Acces-Token verwendet werden. Dieses kist hier erhältlich: https://developer.tibber.com/"
         },"price_enable_hw": {
             "SE":"<b>Aktivera varmvattenreglering</b>",
@@ -490,7 +490,7 @@
             "DE":"<b>Raumtemperatursensor</b>"
         },"difference": {
             "SE":"<b>Differens</b>",
-            "EN":"<b>Differece</b>",
+            "EN":"<b>Difference</b>",
             "DE":"<b>Abweichung</b>"
         },"price_s1_graph": {
             "SE":"<p><b>Graf S1</b></p>",
@@ -510,19 +510,19 @@
             "DE":"<p><b>Wärme-Informationen</b></p>"
         },"start_info": {
             "SE":"<p><b>Husinformation</b></p><br><p>För att använda Prognosreglering behöver husets koordinater anges.<br>Fastighetens storlek anges i kvm (Uppvärmd yta) och används för att beräkna rätt flöde för frånluftsvärmepumpar med automatiskt luftflöde</p>",
-            "EN":"<p><b>House information</b></p><br><p>To use Forecast regulation, the house's coordinates need to be specified.<br>The size of the building is given in sqm (heated area) and is used to calculate the correct flow for exhaust air heat pumps with automatic air flow </p>",
+            "EN":"<p><b>House information</b></p><br><p>To use Forecast regulation, the house's coordinates need to be specified.<br>The size of the building is given in sqm (heated area) and is used to calculate the correct flow for exhaust air heatpumps with automatic airflow </p>",
             "DE":"<p><b>Hausinformationen</b></p><br><p>Um die Prognoseregelung verwenden zu können, müssen die Koordinaten des Hauses angegeben werden.<br>Die Größe des Gebäudes wird in m² angegeben (beheizte Fläche) und wird verwendet, um den korrekten Durchfluss für Abluftwärmepumpen mit automatischem Luftstrom zu berechnen</p>"
         },"cpr_info": {
             "SE":"<p><b>Kompressorförbrukning</b></p><br><p>Kompressorns förbrukning för värme och varmvatten<br><i>OBS. Notera att detta kan skilja sig avsevärt från en extern elmätare som mäter hela värmepumpens förbrukning</i></p>",
-            "EN":"<p><b>Kompressor consumption</b></p><br><p>Compressor consumption for heating and hot water<br><i>NOTE: This can differ significantly from an external electricity meter that measures the entire heat pump consumption</i></p>",
+            "EN":"<p><b>Compressor consumption</b></p><br><p>Compressor consumption for heating and hot water<br><i>NOTE: This can differ significantly from an external electricity meter that measures the entire heat pump consumption</i></p>",
             "DE":"<p><b>Kompressorverbrauch</b></p><br><p>Kompressorverbrauch für Wärme und Warmwasser<br><i>HINWEIS: Beachte, dass dies erheblich von einem externen Stromzähler abweichen kann, der den gesamten Wärmepumpenverbrauch misst</i></p>"
         },"register_info": {
             "SE":"<p><b>Registerhantering</b></p><br><p>Välj vilka register som ska hämtas från värmepumpen<br>Register aktiverade med LOG.SET är förvalda och går ej ta bort.<br>Alla valda register syns till höger och det senaste aktuella hämtade värdet visas.<br><i>OBS. Ju fler register som väljs kommer göra att registerna uppdateras mindre ofta. Detta eftersom att värmepumpen endast kan hantera ett visst antal meddelanden i sekunden.</i></p>",
-            "EN":"<p><b>Register management</b></p><br><p>Select which registers are to be retrieved from the heat pump<br>Registers activated in the LOG.SET file are preselected and cannot be deleted<br><br>All selected registers are visible on the right and the last retrieved value is displayed.<br><i>NOTE: The more registers you select, the less often the registers will be updated. This is due to the fact that the heatpump can only process a certain amoutn registers per second.</i></p>",
+            "EN":"<p><b>Register management</b></p><br><p>Select which registers are to be retrieved from the heatpump<br>Registers activated in the LOG.SET file are preselected and cannot be deleted<br><br>All selected registers are visible on the right and the last retrieved value is displayed.<br><i>NOTE: The more registers you select, the less often the registers will be updated. This is due to the fact that the heatpump can only process a certain amount registers per second.</i></p>",
             "DE":"<p><b>Registerverwaltung</b></p><br><p>Wähle aus, welche Register von der Wärmepumpe abgerufen werden sollen.<br>In der LOG.SET Datei aktivierte Register sind vorausgewählt und können nicht gelöscht werden<br>Alle ausgewählten Register werden rechts angezeigt und der zuletzt abgerufene Wert wird angezeigt.<br><i> HINWEIS: Je mehr Register ausgewählt werden, desto seltener werden die Register aktualisiert. Dies liegt daran, dass die Wärmepumpe nur eine bestimmte Anzahl von Registern pro Sekunde verarbeiten kann.</i></p>"
         },"data_info": {
             "SE":"<p><b>Datahantering</b></p><br><p>Alla valda register visas här under, inkl. nuvarande värde.<br>För att visa data i graf nedan, markera register i denna lista.<br><i>Historik sparas alltid för valda register, och finns tillgängliga att visas i grafen nedan.<br>För att historiken ska sparas efter omstart behöver funktionen \"Spara grafer\" aktiveras under Inställingar</p>",
-            "EN":"<p><b>Data management</b></p><br><p> All selected registers are shown below, including current value.<br>To view data in graph below, select registers in this list.<br><i>Historical values are plotted in the graph below.<br>The data can be saved permanently using the function \"Save graphics\" in the menu item \"Installation\".</p>",
+            "EN":"<p><b>Data management</b></p><br><p> All selected registers are shown below, including current value.<br>To view data in graph below, select registers in this list.<br><i>Historical values are plotted in the graph below.<br>The data can be saved permanently using the function \"Save graphs\" in the menu item \"Installation\".</p>",
             "DE":"<p><b>Datenverwaltung</b></p><br><p>Alle ausgewählten Register werden unten angezeigt, einschließlich des aktuellen Werts.<br>Um Daten in der folgenden Grafik anzuzeigen, wählen Register in dieser Liste aus.<br><i>Der Verlauf wird immer für ausgewählte Register gezeichnet. Über Funktion \"Grafiken speichern\" im Menüpunkt \"Installation\" können die Daten dauerhaft gespeichert werden.</p>"
         },"remove_register": {
             "SE":"<b>Ta bort register</b>",
@@ -538,7 +538,7 @@
             "DE":"<p><b>Warmwasser-Priorität</b></p><br>Wenn das Brauchwarmwasser (BT7) unter dem eingestellten Mindestniveau liegt, beginnt die Heißwasserproduktion sofort.<br><i>Diese Funktion hilft bei der Priorisierung von heißem Wasser während der Winterperiode, in der Wärme häufig priorisiert wird.</i>"
         },"hw_auto_lux_info2": {
             "SE":"<i>Exempel för badkar<br>För att kalibrera in funktionen så ställ grafen att visa 1 timma, det ger en detaljerad graf.<br>Notera vad klockan är och börja tappa upp badkaret, fyll upp badkaret rejält och kolla grafen efteråt. Du kommer se en ljusblå linje som dyker ner mot en orange linje som också dyker. Detta är samma linje men den nedre linjen är förskjuten med tidfaktorn, och avståndet mellan linjerna i höjdled är differensen. Om linjerna möts kommer funktionen att triggas och en grön linje kommer visa sig, när den ljusblå linjen har överstigit denna så stängs funktionen av.<br>Om linjerna precis missar varandra under tappningen så behöver tidfaktorn justeras till ett högre värde, om den ljusblåa linjen aldrig når ner till den orangea så behöver differensen sänkas.<br>Om funktionen triggas för enklare saker som dusch eller diskning så ska man höja differensen lite.<br>OBS. Grundinställningarna är i många fall tillräckliga och kan endast behöva justeras lite i tid för att fånga upp trögheten i olika system</i>",
-            "EN":"<i>Example for a bathtub<br>To calibrate the function, set the graph to show 1 hour, it gives a detailed graph.<br>Note what time it is and start filling the bathtub. Check the graph afterwards. You will see a light blue line that goes down to an orange line that is also falling. This is the same line but the bottom line is offset by the time factor, and the distance between the lines in height is the temperature difference. When both lines meet, the function will triggered and a green line will appear, when the light blue line has exceeded this green line, the function will be turned off.<br>If the lines miss each other during filling of the tub, the time factor needs to be adjusted to a higher value. If the light blue line never reaches the orange line, then the difference needs to be lowered.<br>If the function is triggered for smaller amounts of water, such as showering or washing dishes, you should increase the difference a little.<br>NOTE: The basic settings sufficient in most cases and may only need to be adjusted a little in time to catch up inertia in different systems</i>",
+            "EN":"<i>Example for a bathtub<br>To calibrate the function, set the graph to show 1 hour, it gives a detailed graph.<br>Note what time it is and start filling the bathtub. Check the graph afterwards. You will see a pale blue line that goes down to an orange line that is also falling. This is the same line but the bottom line is offset by the time factor, and the distance between the lines in height is the temperature difference. When both lines meet, the function will be triggered and a green line will appear, when the pale blue line has exceeded this green line, the function will be turned off.<br>If the lines miss eachother during filling of the tub, the time factor needs to be adjusted to a higher value. If the pale blue line never reaches the orange line, then the difference needs to be lowered.<br>If the function is triggered for smaller amounts of water, such as showering or washing dishes, you should increase the difference a little.<br>NOTE: The basic settings sufficient in most cases and may only need to be adjusted a little in time to catch up inertia in different systems</i>",
             "DE":"<i>Beispiel für eine Badewanne <br> Um die Funktion zu kalibrieren, stelle das Diagramm so ein, dass 1 Stunde angezeigt wird. Es wird ein detailliertes Diagramm angezeigt.<br>Notiere die Uhrzeit und Beginne mit dem Füllen der Badewanne. Fülle die Badewanne komplett auf. Du siehst eine hellblaue Linie, die bis zu einer orangefarbenen Linie abfällt, welche ebenfalls einen abfallenden Verlauf hat. Dies ist dieselbe Linie, aber die untere Linie ist um den Zeitfaktor versetzt und der Abstand zwischen den Linien in der Höhe ist der Temperaturunterschied. Wenn sich die Linien treffen, wird die Funktion ausgelöst wird und eine grüne Linie erscheint. Wenn die hellblaue Linie diese überschritten hat, wird die Funktion ausgeschaltet.<br>Wenn sich die Linien beim Füllen der Wanne verfehlen, muss der Zeitfaktor auf einen höheren Wert eingestellt werden. Wenn die hellblaue Linie niemals die orangene erreicht, muss die Temperaturdifferenz verringert werden.<br> Wenn die Funktion für kleinere Wassermengen wie Duschen oder Geschirrspülen ausgelöst wird, sollte die Temperaturdifferenz ein Wenig erhöht werden.<br> HINWEIS: Die Grundeinstellungen sind in meißten Fällen ausreichend und müssen möglicherweise nur minimal angepasst werden, um die Trägheit unterschiedlicher Systeme zu kompensieren.</i>"
         },"hw_diff": {
             "SE":"<b>Differens</b>",
