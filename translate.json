@@ -130,7 +130,7 @@
             "DE":"<b>Aktualisieren</b>"
         },"extra_sensor_info": {
             "SE":"<p><b>Extra givare</b></p><br>Här kan du lägga till extra givare som kan användas i funktionerna<br>Det går att välja givare från register i värmepumpen eller via ett MQTT Topic",
-            "EN":"<p><b>Additional sensors</b></p><br>Here you can add additional sensors to be used in the different features.<br>You can select a sensor from a Modbus register for from MQTT topic",
+            "EN":"<p><b>Additional sensors</b></p><br>Here you can add additional sensors to be used in the different features.<br>You can select a sensor from a Modbus register or from MQTT topic",
             "DE":"<p><b>Zusätzliche Sensoren</b></p><br>Hier kannst du zusätzliche Sensoren hinzufügen, die in den verschiedenen Funktionen genutzt werden können.<br>Du kannst einen Sensor entweder über ein Modbus Register hinzufügen oder über ein MQTT Topic."
         },"sensor_timeout": {
             "SE":"<b>Timeout tid för MQTT givare</b><br><i>Givaren måste uppdateras inom detta interval annars ignoreras den. OBS \"0\" inaktiverar timeout.</i>",
