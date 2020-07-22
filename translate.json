@@ -155,7 +155,7 @@
         },"forecast_update_info": {
             "SE":"<i>Begär ny väderdata och uppdatera grafen med nya värden.</i>",
             "EN":"<i>Fetch new weather data and update the graph with new values.</i>",
-            "DE":"<i>Neue Wetterdaten anfordern und Diagramm mit neuen Werten aktualisieren.</i>",
+            "DE":"<i>Neue Wetterdaten anfordern und Diagramm mit neuen Werten aktualisieren.</i>"
         },"forecast_sensor_s1": {
             "SE":"<b>Välj inomhusgivare S1</b>",
             "EN":"<b>Select indoor sensor S1</b>",
@@ -178,8 +178,8 @@
             "DE":"<b>Prognosekorrektur aktivieren</b>"
         },"sunfactor_info": {
             "SE":"<p><b>Solfaktor</b></p><br>Vid mycket solinstrålning så går det att ställa en solfaktor.<br>Värdet som valts läggs till på prognostemperaturen.",
-            "SE":"<p><b>Solar factor</b></p><br>In case of high solar radiation, it is possible to set a solar factor.<br>This value is added to the forecast temperature.",
-            "SE":"<p><b>Sonnenfaktor</b></p><br>Bei starker Sonneneinstrahlung kann ein Sonnenfaktor angegeben werden.<br>Dieser Wert wird zur prognostizierten Temperatur addiert."
+            "EN":"<p><b>Solar factor</b></p><br>In case of high solar radiation, it is possible to set a solar factor.<br>This value is added to the forecast temperature.",
+            "DE":"<p><b>Sonnenfaktor</b></p><br>Bei starker Sonneneinstrahlung kann ein Sonnenfaktor angegeben werden.<br>Dieser Wert wird zur prognostizierten Temperatur addiert."
         },"wind_direction_info": {
             "SE":"<i>Riktning: Norr: -1, Söder: -2, Väst: -3, Öst: -4</i>",
             "EN":"<i>Direction: North: -1, South: -2, West: -3, East: -4</i>",
@@ -187,7 +187,7 @@
         },"windfactor_info": {
             "SE":"<p><b>Vindfaktor</b></p><br>Om fastigheten är utsatt för mycket vind kan man ta med detta i prognosen och kompensera med höjt börvärde.<br>Justeringsfaktorn är ställbart från varje väderstreck.",
             "EN":"<p><b>Wind factor</b></p><br>If the building is exposed to high winds, a wind factor can be set to compensate with a higher setpoint. <br>The adjustment factor can be set for each cardinal direction individually.", 
-            "DE":"<p><b>Windfaktor</b></p><br>Wenn das Gebäude starkem Wind ausgesetzt ist, kann dies durch einen Windfaktor in die Prognose einbezogen und mit einem höheren Sollwert kompensiert werden.<br>Der Windfaktor kann für jede Himmelsrichtung gesondert angegeben werden.", 
+            "DE":"<p><b>Windfaktor</b></p><br>Wenn das Gebäude starkem Wind ausgesetzt ist, kann dies durch einen Windfaktor in die Prognose einbezogen und mit einem höheren Sollwert kompensiert werden.<br>Der Windfaktor kann für jede Himmelsrichtung gesondert angegeben werden." 
         },"wind_factor_n": {
             "SE":"<b>Norr</b>",
             "EN":"<b>North</b>",
@@ -226,8 +226,8 @@
             "DE":"<p><b>Innentemperatur-Regelung S2</b></p><br>Die Innentemperatur-Regelung wird hauptsächlich für Hochtemperatursysteme (Heizkörper) empfohlen. Mit einem geringen Faktor, kann sie mit Niedertemperatursystemen verwendet werden.<br><i>Hinweis: Fußbodenheizungen in Estrich sind sehr träge Systeme und ein Faktor über 2 wird nicht empfohlen.</i>"
         },"indoor_options_label": {
             "SE":"<b>Inomhusreglering</b>",
-            "SE":"<b>Indoor temperature control</b>",
-            "SE":"<b>Innentemperatur-Regelung</b>"
+            "EN":"<b>Indoor temperature control</b>",
+            "DE":"<b>Innentemperatur-Regelung</b>"
         },"indoor_options_off": {
             "SE":"Avaktiverat",
             "EN":"Deactivated",
@@ -242,16 +242,16 @@
             "DE":"NibePis Innentemperatur-Regelung"
         },"indoor_set": {
             "SE":"<b>Inomhus börvärde</b><br><i>Ställ rumsbörvärdet här. Samma värde visas/ändras i värmepumpen</i>",
-            "SE":"<b>Indoor temperature set value</b><br><i>Set the room temperature setpoint here. The same value is shown/changed in the heatpump</i>",
-            "SE":"<b>Raumtemperatur Sollwert</b><br><i>Stelle hier den Sollwert für die Raumtemperatur ein. Der selbe Wert wird in der Wärmepumpe angezeigt/geändert</i>"
+            "EN":"<b>Indoor temperature set value</b><br><i>Set the room temperature setpoint here. The same value is shown/changed in the heatpump</i>",
+            "DE":"<b>Raumtemperatur Sollwert</b><br><i>Stelle hier den Sollwert für die Raumtemperatur ein. Der selbe Wert wird in der Wärmepumpe angezeigt/geändert</i>"
         },"indoor_diff": {
             "SE":"<b>Avvikelse</b><br><i>Ungefärlig uträkning för hur mycket temperaturen avviker från börvärdet.</i>",
-            "SE":"<b>Deviation</b><br><i>Approximate calculation of how much the room temperature deviates from the setpoint.</i>",
-            "SE":"<b>Regelabweichung</b><br><i>Ungefähre Berechnung, um wie viel die Raumtemperatur vom Sollwert abweicht.</i>"
+            "EN":"<b>Deviation</b><br><i>Approximate calculation of how much the room temperature deviates from the setpoint.</i>",
+            "DE":"<b>Regelabweichung</b><br><i>Ungefähre Berechnung, um wie viel die Raumtemperatur vom Sollwert abweicht.</i>"
         },"indoor_temp": {
             "SE":"<b>Inomhustemperatur</b>",
             "EN":"<b>Indoor temperature</b>",
-            "DE":"<b>Raumtemperatur</b>",
+            "DE":"<b>Raumtemperatur</b>"
         },"indoor_curveadjust": {
             "SE":"<b>Kurvjustering</b><br><i>Aktuell kurvjustering vid NibePis reglering</i>",
             "EN":"<b>Curve adjustment</b><br><i>Current curve adjustment according to NibePis control</i>",
@@ -326,8 +326,8 @@
             "DE":"<b>Kalibrieren</b>"
         },"fan_efficiency": {
             "SE":"<b>Effektivitet</b>",
-            "SE":"<b>Efficiency</b>",
-            "SE":"<b>Effizienz</b>"
+            "EN":"<b>Efficiency</b>",
+            "DE":"<b>Effizienz</b>"
         },"fan_low_info": {
             "SE":"<p><b>Sänk luftflöde</b></p><br>Sänk luftflödet vid låg kompressorfrekvens<br><i>Ange under vilken kompressorfrekvens det aktiveras, samt vilket luftflöde som ska hållas, om CO2 givare är aktiverad välj ett värde som nivån måste understiga",
             "EN":"<p><b>Reduce airflow</b></p><br> Decrease airflow at low compressor frequencies <br> <i> Specify below which compressor frequency it is activated, and which airflow to maintain, if CO2 sensor is activated select a value that the level must be below",
@@ -338,8 +338,8 @@
             "DE":"<p><b>CO2 Luftstrom erzwingen</b></p><br>Bei hohem CO2-Wert kann die Belüftung erzwungen werden. Gib an, welcher Wert überschritten werden muss und welcher Luftstrom aufrecht erhalten werden soll."
         },"fan_filter_info": {
             "SE":"<p><b>Filterövervakning</b></p><br>Aktivera övervakning av filter, vid rengöring av filter behöver anläggningen kalibreras första gången<br><i>Under uppbyggnad...</i>",
-            "SE":"<p><b>Filter monitoring</b></p><br>Activate filter monitoring. When you clean the filter, the system has to be re-calibrated.<br><i>Under development ...</i>",
-            "SE":"<p><b>Filterüberwachung</b></p><br>Aktivierung der Filterüberwachung. Wenn du den Filter reinigst, muss das System neu kalibriert werden.<br><i>In Entwicklung ...</i>"
+            "EN":"<p><b>Filter monitoring</b></p><br>Activate filter monitoring. When you clean the filter, the system has to be re-calibrated.<br><i>Under development ...</i>",
+            "DE":"<p><b>Filterüberwachung</b></p><br>Aktivierung der Filterüberwachung. Wenn du den Filter reinigst, muss das System neu kalibriert werden.<br><i>In Entwicklung ...</i>"
         },"fan_degree_info": {
             "SE":"<p><b>Forcering vid låga gradminuter</b></p><br>För att öka effektiviteten på kompressorn så kan luftflödet öka när gradminuterna börjar närma sig start för tillsats.",
             "EN":"<p><b>Force airflow at low degree minutes</b></p><br>To increase efficiency of the compressor, the airflow can be increased when the degree minutes start reaching the start value for additional heating, thus preventing that.",
@@ -363,7 +363,7 @@
         },"log_enable": {
             "SE":"<b>Loggning på</b><br><i>Aktiverar loggning, OBS loggning sparas endast i arbetsminnet</i>",
             "EN":"<b>Activate logging</b><br><i>Activates the logging. Note: Logs are only stored in RAM</i>",
-            "DE":"<b>Protokollierung aktivieren</b><br><i>Aktiviert die Protokollierung. Hinweis: Logdateien werden nur im Arbeitsspeicher abgelegt.</i>",
+            "DE":"<b>Protokollierung aktivieren</b><br><i>Aktiviert die Protokollierung. Hinweis: Logdateien werden nur im Arbeitsspeicher abgelegt.</i>"
         },"log_info": {
             "SE":"<b>INFO</b>",
             "EN":"<b>INFO</b>",
@@ -407,7 +407,7 @@
         },"price_low": {
             "SE":"<b>Lågt pris</b>",
             "EN":"<b>Low price</b>",
-            "DE":"<b>Niedriger Preis</b>",
+            "DE":"<b>Niedriger Preis</b>"
         },"price_very_low": {
             "SE":"<b>Väldigt lågt pris</b>",
             "EN":"<b>Very low price</b>",
